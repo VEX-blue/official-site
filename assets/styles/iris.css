@@ -125,8 +125,12 @@ body {
     transition: all 200ms ease-in-out;
 }
 
+.start {
+    margin-top: 7.5rem;
+}
 .spacer {
     width: 92.5%;
+    max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
     height: 1.5rem;
@@ -136,6 +140,7 @@ body {
 
 .text-section {
     width: 90%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: .5rem;
@@ -226,12 +231,26 @@ body {
         border-radius: 25rem;
     }
 
-.footer-nav {
-    word-spacing: 1.5rem;
+footer .triple-section {
+    max-width: 1250px;
+    }
+.footer-section-nav {
+    word-spacing: .5rem;
+    font-size: 1.25rem;
 }
-    .footer-nav a {
+    .footer-section-nav a {
         text-decoration: none;
-        color: #272727
+        color: #272727;
+        font-size: 1.25rem;
+    }
+    .copyright {
+        text-decoration: none;
+        color: #272727;
+        font-size: 1.5rem;
+    }
+    .socials {
+        text-decoration: none;
+        font-size: 1.75rem;
     }
 
 @media (min-width: 801px) {
@@ -260,7 +279,7 @@ body {
         border-radius: 0rem;
     }
 
-    .footer-nav {
+    .hide-mobile {
         display: none;
     }
 }
