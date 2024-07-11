@@ -231,6 +231,33 @@ body {
         border-radius: 25rem;
     }
 
+form {
+    font-size: 1.5rem;
+}
+    form input, form select {
+        border-radius: 1rem;
+        margin: .25rem;
+        padding: .25rem;
+        border: .1rem;
+        width: 20rem;
+    }
+    form textarea {
+        border-radius: 1rem;
+        margin: .5rem;
+        padding: .25rem;
+        border: .1rem;
+        width: 61.5rem;
+        height: 15rem;
+    }
+    form button {
+        border-radius: 1rem;
+        margin: .25rem;
+        padding: .25rem;
+        border: .1rem;
+        width: 10rem;
+    }
+
+
 footer .triple-section {
     max-width: 1250px;
     }

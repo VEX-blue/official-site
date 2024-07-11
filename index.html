@@ -148,7 +148,25 @@
             <div class="text-section">
                 <h1 class="center">Contact Us</h1>
                 <p class="center">
-                    Coming Soon...
+                    <form class="center form" target="_blank" action="https://formsubmit.co/sam@vex.blue" method="POST">
+                        <input type="hidden" name="_subject" value="NEW! VEX.blue Contact">
+                        <input type="hidden" name="_next" value="https://vex.blue/contact-thanks">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="name" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email Address" requred>
+                        <select list="service" placeholder="Service">
+                            <datalist id="service">
+                                <option value="" disabled selected>Choose a Service</option>
+                                <option value="Video Editing">Video Editing</option>
+                                <option value="VHS Conversion">VHS Conversion</option>
+                                <option value="Podcasts">Podcasts</option>
+                                <option value="Other">Other</option>
+                            </datalist>
+                        <br>
+                        <textarea type="enquire" name="enquire" placeholder="How can we help?" requred></textarea>
+                        <br>
+                        <button type="submit">Send</button>
+                    </form>
                 </p>
             </div>
             <div class="spacer"></div>
