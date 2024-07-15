@@ -1,0 +1,72 @@
+/* Font Sizes */
+
+.rem2-5 {
+    font-size: 2.5rem;
+}
+
+.rem2 {
+    font-size: 2rem;
+}
+
+.rem1-5 {
+    font-size: 1.5rem;
+}
+
+
+.rem1-25 {
+    font-size: 1.25rem;
+}
+
+.rem1 {
+    font-size: 1rem;
+}
+
+.rem0-5 {
+    font-size: .5rem;
+}
+
+/* Font Weight */
+.bold-300 {
+    font-weight: 300;
+}
+
+.bold-400 {
+    font-weight: 300;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+.bold-600 {
+    font-weight: 600;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+/* Hide Element */
+.hide-all {
+    display: none;
+}
+
+@media (min-width: 801px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+}
+    
+@media (max-width: 800px) {
+    .full-nav {
+        display: none;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
