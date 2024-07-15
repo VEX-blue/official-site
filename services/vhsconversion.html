@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Layout v1 -->
+        <meta charset="UTF-8">
+        <!-- Viewport / Layout Size -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Personal Stylesheets -->
+        <link href="\assets/styles/iris.css" rel="stylesheet">
+        <link href="\assets/styles/universal.css" rel="stylesheet">
+        <!-- Personal Scripts -->
+        <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
+        <script src="\assets/scripts/remove-html.js" defer></script>
+        <script src="\assets/scripts/editor-filter.js" defer></script>
+        <!-- Favicon / Webpage Icon -->
+        <link rel="icon" type="image/png" href="\assets/logos/vexitica-favicon.png">
+        <!-- Webpage Title -->
+        <title>VHS Conversion | Services | VEX.blue</title>
+        <!-- Webpage Description (#1) -->
+        <meta name="description" content="Description coming soon...">
+        <!-- Author -->
+        <meta name="author" contents="Samantha E Xavia">
+        <meta name="author_url" content="https://southampton.social/@sam">
+        <!-- Tags / Keywords for Webpage -->
+        <meta name="keywords" content="VEX Services, VEX.blue VHS Conversion, VHS Conversion, VHS Conversion Serivces, Cheap VHS Conversion, Southampton VHS Converters">
+        <!-- Social Media Sharing Info -->
+            <!-- Site Name -->
+            <meta property="og:site_name" content="VEX.blue">
+            <!-- Page Name -->
+            <meta property="og:title" content="VHS Conversion Services">
+            <!-- Perminant URL -->
+            <meta property="og:url" content="https://vex.blue/services/vhsconversion">
+            <!-- Type of Page -->
+            <meta property="og:type" content="website">
+            <!-- Description of Webpage (#2) -->
+            <meta property="og:description" content="Description coming soon...">
+            <!-- Featured Image -->
+            <meta property="og:image" content="https://vex.blue/assets/thumbnails/services.png">
+            <meta property="og:image:type" content="image/png">
+            <meta property="og:image:width" content="1920">
+            <meta property="og:image:height" content="1080">
+            <meta name="twitter:card" content="summary_large_image">
+        <!-- Imported Fonts -->
+                <!-- Google Fonts -->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+                <!-- Font Awesome CDN -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+            <!-- overlay for mobile -->
+            <div id="overlay">
+                <div>
+                    <i class="fa fa-times" title="button to close mobile navigation" onclick="off()"></i>
+                </div>
+                <div class="overlay-text">
+                    <a href="\">Home</a>
+                    <a href="\services/videoediting">Editing</a>
+                    <a href="\services">Services</a>
+                    <a href="\#contact">Contact</a>
+                </div>
+            </div>
+        <header>
+            <!-- Full Nav -->
+            <div class="nav full-nav">
+                <div>
+                    <a href="\"><img src="\assets/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                </div>
+                <div>
+                    <a href="\">Home</a>
+                    <a href="\services/videoediting">Editing</a>
+                    <a href="\services">Services</a>
+                    <a href="\#contact">Contact</a>
+                </div>
+            </div>
+            <!-- Mobile Nav -->
+            <div class="nav mobile-nav">
+                <div>
+                    <a href="/"><img src="\assets/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bars" title="button to open navigation" onclick="on()"></i>
+                </div>
+            </div>
+        </header>
+        <main>
+            <br>
+            <div class="spacer start"></div>
+            <div class="text-section">
+                <h1 class="center rem2-5">VHS Conversion</h1>
+                <p class="center rem1-25">
+                    Welcome to VEX.blue, your premier destination for professional video editing services. Whether you're an aspiring filmmaker, a content creator, or a business looking to enhance your visual presence, VEX.blue offers cutting-edge video editing solutions tailored to meet your unique needs.
+                </p>
+                <div class="double-section">
+                    <div class="double-section-child">
+                        <h2 class="center rem2">About our Service</h2>
+                        <p class="center bold-500 rem1-5">1. Professional Editing</p>
+                        <p class="center rem1-25">At VEX.blue, we specialize in transforming raw footage into polished, compelling videos. Our skilled editors use advanced editing techniques to ensure your video is engaging and high-quality, whether it's for marketing, social media, documentaries, or personal projects.</p>
+                    </div>
+                </div>
+                <h1 class="center">Enquiries</h1>
+                <p class="center rem1-25">Ready to digitalise your VHS? Contact VEX.blue today and let's discuss your tape.</p>
+                <form class="center form" target="_blank" action="https://formsubmit.co/sam@vex.blue" method="POST">
+                    <input type="hidden" name="_subject" value="NEW! VEX.blue VHS Conversion Enquiry">
+                    <input type="hidden" name="_next" value="https://vex.blue/services/videoediting/enqiry-thanks">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="name" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email Address" requred>
+                    <input type="type" name="type" placeholder="Type of VHS" requred>
+                    <br>
+                    <textarea type="enquire" name="enquire" placeholder="Any further info about your VHS tape(s)?"></textarea>
+                    <br>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="spacer"></div>
+        </main>
+        <footer class="center">
+            <div class="triple-section">
+                <div class="triple-section-child footer-section-nav hide-mobile">
+                    <a href="\">Home</a>
+                    <a href="\services/videoediting">Editing</a>
+                    <a href="\services">Services</a>
+                    <a href="\#contact">Contact</a>
+                </div>
+                <div class="triple-section-child footer-section-nav">
+                    <i class="fa-solid fa-copyright copyright"> Copyright 2023</i> 
+                    <br>
+                    <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27">Created by Samantha E Xavia</a>
+                </div>
+                <div class="triple-section-child footer-section-nav center socials hide-mobile">
+                    <a class="gray-27" href="https://southampton.social/@vexdotblue" target="_blank">
+                        <i class="fa-brands fa-mastodon socials"></i>
+                    </a>
+                    <a class="gray-27" href="https://www.youtube.com/@vexdotblue/" target="_blank">
+                        <i class="fa-brands fa-youtube socials"></i>
+                    </a>
+                    <a class="gray-27" href="https://www.instagram.com/vexdotblue" target="_blank">
+                        <i class="fa-brands fa-instagram socials"></i>
+                    </a>
+                    <a class="gray-27" href="https://www.facebook.com/vexdotblue/" target="_blank">
+                        <i class="fa-brands fa-facebook socials"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
