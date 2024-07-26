@@ -1,3 +1,13 @@
+/* Text align */
+.center {
+    text-align: center;
+}
+
+/* Text Decorations None */
+.delinkify {
+    text-decoration: none;
+}
+
 /* Font Sizes */
 
 .rem2-5 {
@@ -6,6 +16,10 @@
 
 .rem2 {
     font-size: 2rem;
+}
+
+.rem1-75 {
+    font-size: 1.7rem;
 }
 
 .rem1-5 {
