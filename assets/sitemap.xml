@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://vex.blue</loc>
+    </url>
+    <url>
+        <loc>https://vex.blue/services</loc>
+    </url>
+        <url>
+            <loc>https://vex.blue/services/videoediting</loc>
+        </url>
+            <url>
+                <loc>https://vex.blue/vexev/32/1</loc>
+            </url>
+            <url>
+                <loc>https://vex.blue/vexev/32/2</loc>
+            </url>
+            <url>
+                <loc>https://vex.blue/vexev/33/1</loc>
+            </url>
+            <url>
+                <loc>https://vex.blue/vexev/33/2</loc>
+            </url>
+            <url>
+                <loc>https://vex.blue/vexev/33/3</loc>
+            </url>
+            <url>
+                <loc>https://vex.blue/vexev/34/1</loc>
+            </url>
+        <url>
+            <loc>https://vex.blue/services/podcasting</loc>
+        </url>
+        <url>
+            <loc>https://vex.blue/services/vhsconversion</loc>
+        </url>
+</urlset>
