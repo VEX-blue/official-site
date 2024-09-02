@@ -6,13 +6,13 @@
         <!-- Viewport / Layout Size -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Personal Stylesheets -->
-        <link href="\assets/styles/iris.css" rel="stylesheet">
+        <link href="\assets/styles/v2.2.css" rel="stylesheet">
         <link href="\assets/styles/universal.css" rel="stylesheet">
         <!-- Personal Scripts -->
         <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
         <script src="\assets/scripts/remove-html.js" defer></script>
         <!-- Favicon / Webpage Icon -->
-        <link rel="icon" type="image/png" href="\assets/logos/vexitica-favicon.png">
+        <link rel="icon" type="image/png" href="\assets/images/logos/vexitica-favicon.png">
         <!-- Webpage Title -->
         <title>VEX.blue</title>
         <!-- Webpage Description (#1) -->
@@ -34,7 +34,7 @@
             <!-- Description of Webpage (#2) -->
             <meta property="og:description" content="Our mission is to deliver exceptional video editing services, preserve cherished memories through VHS conversion, and amplify voices with our podcast production. We believe in the power of storytelling to inspire, connect, and make a difference, and we are dedicated to making high-quality media accessible to everyone.">
             <!-- Featured Image -->
-            <meta property="og:image" content="https://vex.blue/assets/thumbnails/default.png">
+            <meta property="og:image" content="https://vex.blue/assets/images/thumbnails/default.png">
             <meta property="og:image:type" content="image/png">
             <meta property="og:image:width" content="1920">
             <meta property="og:image:height" content="1080">
@@ -64,7 +64,7 @@
             <!-- Full Nav -->
             <div class="nav full-nav">
                 <div>
-                    <a href="\"><img src="\assets/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                    <a href="\"><img src="\assets/images/logos/vexitica.png" alt="VEX.blue Logo" /></a>
                 </div>
                 <div>
                     <a href="\">Home</a>
@@ -76,7 +76,7 @@
             <!-- Mobile Nav -->
             <div class="nav mobile-nav">
                 <div>
-                    <a href="\"><img src="\assets/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                    <a href="\"><img src="\assets/images/logos/vexitica.png" alt="VEX.blue Logo" /></a>
                 </div>
                 <div>
                     <i class="fa-solid fa-bars" title="button to open navigation" onclick="on()"></i>
@@ -85,9 +85,10 @@
         </header>
         <main>
             <br>
-            <div class="spacer start"></div>
-            <div class="text-section">
-                <h1 class="center rem1-5">Our Mission</h1>
+            <!-- Webpage Title -->
+            <h1 class="start center rem2-5">Homepage</h1>
+            <!-- Hook -->
+            <div class="text-section width-50">
                 <p class="center rem1-25">
                     At VEX.blue, we are committed to bringing your stories to life with creativity, precision, and a personal touch. Founded by Samantha Xavia, a proud trans woman, our company embraces diversity and inclusion, providing a welcoming space for LGBT professionals to thrive.
                     <br> <br>
@@ -97,9 +98,9 @@
                 </p>
             </div>
             <!-- Meet the Team -->
+            <h1 class="center rem2">Meet the Team</h1>
             <a name="meettheteam"></a>
             <div class="text-section">
-                <h1 class="center">Meet the Team</h1>
                 <p class="center">
                     <div class="triple-section">
                         <!-- Samantha E Xavia-->
@@ -119,7 +120,7 @@
                         <div class="triple-section-child round-image">
                             <div>
                                 <br>
-                                <img src="\assets/images/lily.jpg" alt="Image of Lily Scott" loading="lazy" style="width: 85%;">
+                                <img src="\assets/images/profile-picture/lily.jpg" alt="Image of Lily Scott" loading="lazy" style="width: 85%;">
                                 <h3>Lily Scott</h3>
                                 <h4>She/They</h4>
                                 <h5>Lead Video Editor</h5>
@@ -132,7 +133,7 @@
                         <div class="triple-section-child round-image">
                             <div>
                                 <br>
-                                <img  src="\assets/images/dee.jpg" alt="Image of Daisy 'Dee' Drayson" loading="lazy" style="width: 85%;">
+                                <img  src="\assets/images/profile-picture/dee.jpg" alt="Image of Daisy 'Dee' Drayson" loading="lazy" style="width: 85%;">
                                 <h3>Daisy "Dee" Drayson</h3>
                                 <h4>They/She/Any</h4>
                                 <h5>Video & Podcast Editor</h5>
@@ -145,34 +146,15 @@
                 </p>
             </div>
             <!-- Contact Section -->
+            <h1 class="center rem2">Contact Us</h1>
             <a name="contact"></a>
-            <div class="text-section">
-                <h1 class="center">Contact Us</h1>
-                <p class="center">
-                    <form class="center form" target="_blank" action="https://formsubmit.co/sam@vex.blue" method="POST">
-                        <input type="hidden" name="_subject" value="NEW! VEX.blue Contact">
-                        <input type="hidden" name="_next" value="https://vex.blue/contact-thanks">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="name" name="name" placeholder="Name" required>
-                        <input type="email" name="email" placeholder="Email Address" requred>
-                        <select list="service" placeholder="Service">
-                            <datalist id="service">
-                                <option value="" disabled selected>Choose a Service</option>
-                                <option value="Video Editing">Video Editing</option>
-                                <option value="VHS Conversion">VHS Conversion</option>
-                                <option value="Podcasts">Podcasts</option>
-                                <option value="Southampton.Social">Southampton.Social</option>
-                                <option value="Other">Other</option>
-                            </datalist>
-                        <br>
-                        <textarea type="enquire" name="enquire" placeholder="How can we help?" requred></textarea>
-                        <br>
-                        <button type="submit">Send</button>
-                    </form>
-                </p>
+            <div class="text-section width-50 center rem1-5">
+                <i class="fa-regular fa-envelope"></i> Email: contact@vex.blue
             </div>
+            <br>
             <div class="spacer"></div>
         </main>
+        <br>
         <footer class="center">
             <div class="triple-section">
                 <div class="triple-section-child footer-section-nav hide-mobile">
@@ -180,11 +162,13 @@
                     <a href="\services/videoediting">Editing</a>
                     <a href="\services">Services</a>
                     <a href="\#contact">Contact</a>
+                    <br>
+                    <p>v2.2</p>
                 </div>
                 <div class="triple-section-child footer-section-nav">
-                    <i class="fa-solid fa-copyright copyright"> Copyright 2023</i> 
+                    <i class="fa-regular fa-copyright"> Copyright 2023</i> 
                     <br>
-                    <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27">Created by Samantha E Xavia</a>
+                    <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27 rem0-5">Created by Samantha E Xavia</a>
                 </div>
                 <div class="triple-section-child footer-section-nav center socials hide-mobile">
                     <a class="gray-27" href="https://southampton.social/@vexdotblue" target="_blank">
@@ -193,11 +177,8 @@
                     <a class="gray-27" href="https://www.youtube.com/@vexdotblue/" target="_blank">
                         <i class="fa-brands fa-youtube socials"></i>
                     </a>
-                    <a class="gray-27" href="https://www.instagram.com/vexdotblue" target="_blank">
-                        <i class="fa-brands fa-instagram socials"></i>
-                    </a>
-                    <a class="gray-27" href="https://www.facebook.com/vexdotblue/" target="_blank">
-                        <i class="fa-brands fa-facebook socials"></i>
+                    <a class="gray-27" href="https://www.threads.net/@vexdotblue/" target="_blank">
+                        <i class="fa-brands fa-threads socials"></i>
                     </a>
                 </div>
             </div>

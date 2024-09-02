@@ -6,12 +6,13 @@
         <!-- Viewport / Layout Size -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Personal Stylesheets -->
-        <link href="\assets/styles/iris.css" rel="stylesheet">
+        <link href="\assets/styles/v2.2.css" rel="stylesheet">
+        <link href="\assets/styles/universal.css" rel="stylesheet">
         <!-- Personal Scripts -->
         <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
         <script src="\assets/scripts/remove-html.js" defer></script>
         <!-- Favicon / Webpage Icon -->
-        <link rel="icon" type="image/png" href="\assets/logos/vexitica-favicon.png">
+        <link rel="icon" type="image/png" href="\assets/images/logos/vexitica-favicon.png">
         <!-- Webpage Title -->
         <title>Services | VEX.blue</title>
         <!-- Webpage Description (#1) -->
@@ -33,7 +34,7 @@
             <!-- Description of Webpage (#2) -->
             <meta property="og:description" content="Browse through our serivces to find the perfect thing you need right now.">
             <!-- Featured Image -->
-            <meta property="og:image" content="https://vex.blue/assets/thumbnails/services.png">
+            <meta property="og:image" content="https://vex.blue/assets/images/thumbnails/services.png">
             <meta property="og:image:type" content="image/png">
             <meta property="og:image:width" content="1920">
             <meta property="og:image:height" content="1080">
@@ -63,7 +64,7 @@
             <!-- Full Nav -->
             <div class="nav full-nav">
                 <div>
-                    <a href="\"><img src="\assets/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                    <a href="\"><img src="\assets/images/logos/vexitica.png" alt="VEX.blue Logo" /></a>
                 </div>
                 <div>
                     <a href="\">Home</a>
@@ -75,7 +76,7 @@
             <!-- Mobile Nav -->
             <div class="nav mobile-nav">
                 <div>
-                    <a href="/"><img src="\assets/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                    <a href="/"><img src="\assets/images/logos/vexitica.png" alt="VEX.blue Logo" /></a>
                 </div>
                 <div>
                     <i class="fa-solid fa-bars" title="button to open navigation" onclick="on()"></i>
@@ -84,32 +85,22 @@
         </header>
         <main>
             <br>
-            <div class="spacer start"></div>
-            <div class="text-section">
-                <h1 class="center">Services</h1>
-                <p class="center">
-                    <div class="triple-section">
-                        <!-- Video Editing Service -->
-                        <div class="triple-section-child">
-                            <a href="\services/videoediting"><img  src="\assets/thumbnails/videoeditingservice.png" alt="Video Editing Service" loading="lazy" style="width: 100%;"></a>
-                        </div>
-                        <!-- VHS Conversion Service -->
-                        <div class="triple-section-child">
-                            <a href="\services/vhsconversion"><img  src="\assets/thumbnails/vhsconversionservice.png" alt="VHS Conversion Service" loading="lazy" style="width: 100%;"></a>
-                        </div>
-                        <!-- Podcasting Service -->
-                        <div class="triple-section-child">
-                            <a href="\services/podcasting"><img  src="\assets/thumbnails/podcastservice.png" alt="Podcasting Service" loading="lazy" style="width: 100%;"></a>
-                        </div>
-                        <!-- Southampton.Social Service -->
-                        <div class="triple-section-child">
-                            <a href="\services/southampton.social"><img  src="\assets/thumbnails/southamptonsocialservice.png" alt="Southampton.Social Service" loading="lazy" style="width: 100%;"></a>
-                        </div>
-                    </div>
-                </p>
-            </div>
+            <h1 class="start center rem2-5"></h1>
+            <!-- Services -->
+                <!-- Video Editing -->
+                <a href="\services/videoediting"><img src="\assets/images/banners/services/videoediting.png" alt="Video Editing Service" loading="lazy" style="width: 100%;"></a>
+                <!-- VHS Conversion -->
+                <a href="\services/vhsconversion"><img src="\assets/images/banners/services/vhsconversion.png" alt="VHS Conversion Service" loading="lazy" style="width: 100%;"></a>
+                <!-- Podcasting Service -->
+                <a href="\services/podcasting"><img src="\assets/images/banners/services/podcasts.png" alt="Podcasting Service" loading="lazy" style="width: 100%;"></a>
+                <!-- Southampton.Social Service -->
+                <a href="\services/southampton.social"><img src="\assets/images/banners/services/southampton.social.png" alt="Southampton.Social Mastodon Service" loading="lazy" style="width: 100%;"></a>
+                <!-- Southampton.Social Service -->
+                <a href="\services/socialmedia"><img src="\assets/images/banners/services/socialmedia.png" alt="Social Media Management Service" loading="lazy" style="width: 100%;"></a>
+            <br> <br>
             <div class="spacer"></div>
         </main>
+        <br>
         <footer class="center">
             <div class="triple-section">
                 <div class="triple-section-child footer-section-nav hide-mobile">
@@ -117,11 +108,13 @@
                     <a href="\services/videoediting">Editing</a>
                     <a href="\services">Services</a>
                     <a href="\#contact">Contact</a>
+                    <br>
+                    <p>v2.2</p>
                 </div>
                 <div class="triple-section-child footer-section-nav">
-                    <i class="fa-solid fa-copyright copyright"> Copyright 2023</i> 
+                    <i class="fa-regular fa-copyright"> Copyright 2023</i> 
                     <br>
-                    <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27">Created by Samantha E Xavia</a>
+                    <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27 rem0-5">Created by Samantha E Xavia</a>
                 </div>
                 <div class="triple-section-child footer-section-nav center socials hide-mobile">
                     <a class="gray-27" href="https://southampton.social/@vexdotblue" target="_blank">
@@ -130,11 +123,8 @@
                     <a class="gray-27" href="https://www.youtube.com/@vexdotblue/" target="_blank">
                         <i class="fa-brands fa-youtube socials"></i>
                     </a>
-                    <a class="gray-27" href="https://www.instagram.com/vexdotblue" target="_blank">
-                        <i class="fa-brands fa-instagram socials"></i>
-                    </a>
-                    <a class="gray-27" href="https://www.facebook.com/vexdotblue/" target="_blank">
-                        <i class="fa-brands fa-facebook socials"></i>
+                    <a class="gray-27" href="https://www.threads.net/@vexdotblue/" target="_blank">
+                        <i class="fa-brands fa-threads socials"></i>
                     </a>
                 </div>
             </div>

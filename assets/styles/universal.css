@@ -35,6 +35,10 @@
     font-size: 1rem;
 }
 
+.rem0-75 {
+    font-size: 0.75rem;
+}
+
 .rem0-5 {
     font-size: .5rem;
 }
@@ -60,6 +64,19 @@
     font-weight: 700;
 }
 
+/* Width Size */
+.width-50 {
+    width: 50%;
+}
+
+.width-75 {
+    width: 75%
+}
+
+.width-90 {
+    width: 90%;
+}
+
 /* Hide Element */
 .hide-all {
     display: none;
@@ -82,5 +99,9 @@
 
     .hide-mobile {
         display: none;
+    }
+
+    .width-50 {
+        width: 75%;
     }
 }
