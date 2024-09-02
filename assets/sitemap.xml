@@ -1,45 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
     <url>
         <loc>https://vex.blue</loc>
     </url>
-        <url>
-            <loc>https://vex.blue/blog/2024/09/02/welcome-to-v2.2</loc>
-        </url>
+        <!-- Blogging -->
+            <!-- 2024 -->
+                <!-- 09 -->
+                    <!-- 02 -->
+                    <url>
+                        <loc>https://vex.blue/blog/2024/09/02/welcome-to-v2.2</loc>
+                    </url>
+    <!-- Services -->
     <url>
         <loc>https://vex.blue/services</loc>
     </url>
+        <!-- Video Editing -->
         <url>
             <loc>https://vex.blue/services/videoediting</loc>
         </url>
-            <url>
-                <loc>https://vex.blue/vexev/32/1</loc>
-            </url>
-            <url>
-                <loc>https://vex.blue/vexev/32/2</loc>
-            </url>
-            <url>
-                <loc>https://vex.blue/vexev/33/1</loc>
-            </url>
-            <url>
-                <loc>https://vex.blue/vexev/33/2</loc>
-            </url>
-            <url>
-                <loc>https://vex.blue/vexev/33/3</loc>
-            </url>
-            <url>
-                <loc>https://vex.blue/vexev/34/1</loc>
-            </url>
+            <!-- 32 - Transhampton Podcast -->
+                <url>
+                    <loc>https://vex.blue/vexev/32/1</loc>
+                </url>
+                <url>
+                    <loc>https://vex.blue/vexev/32/2</loc>
+                </url>
+            <!-- 33 - Hitman Fish Only Challenge (TransPlayUK) -->
+                <url>
+                    <loc>https://vex.blue/vexev/33/1</loc>
+                </url>
+                <url>
+                    <loc>https://vex.blue/vexev/33/2</loc>
+                </url>
+                <url>
+                    <loc>https://vex.blue/vexev/33/3</loc>
+                </url>
+            <!-- VEX Tutorials -->
+                <url>
+                    <loc>https://vex.blue/vexev/34/1</loc>
+                </url>
+        <!-- Podcasting -->
         <url>
             <loc>https://vex.blue/services/podcasting</loc>
         </url>
+            <!-- Podcasts -->
+                <!-- Transhampton -->
+                <!-- Xavia Podcast -->
+                <!-- Trakt Insider -->
+                <!-- Beyond The Blurb -->
+        <!-- VHS Conversion -->
         <url>
             <loc>https://vex.blue/services/vhsconversion</loc>
         </url>
+        <!-- Southampton.Social -->
         <url>
             <loc>https://vex.blue/services/southampton.social</loc>
         </url>
+        <!-- Social Media Management -->
         <url>
             <loc>https://vex.blue/services/socialmedia</loc>
         </url>
+    <!-- Products -->
 </urlset>
