@@ -77,6 +77,12 @@
     width: 90%;
 }
 
+/* Div Center */
+.div-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Hide Element */
 .hide-all {
     display: none;

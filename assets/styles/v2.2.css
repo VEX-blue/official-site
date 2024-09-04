@@ -315,6 +315,7 @@ footer .triple-section {
     padding: .25rem;
 }
 
+/* Written by */
 .writtenbysam {
     color: #50e94b;
     background-color: #272727;
@@ -323,6 +324,24 @@ footer .triple-section {
     padding-bottom: 0.1rem;
     border-radius: 1rem;
 }
+
+/* Blog Posts */
+.blogpost {
+    background:  #d8cbe9;
+    border-radius: 1rem;
+}
+    /* Post Type: Fediverse */
+    .posttype-fediverse {
+        background-color: #50e94b;
+        padding: .25rem;
+        border-radius: 1rem;
+    }
+    /* Post Type: META */
+    .posttype-meta {
+        background-color: #4bbae9;
+        padding: .25rem;
+        border-radius: 1rem;
+    }
 
 @media (max-width: 800px) {
     .mobile-nav {
