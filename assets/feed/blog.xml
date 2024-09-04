@@ -2,8 +2,8 @@
 <rss version="2.0">
 
 <channel>
-  <title>VEX.blue Blog</title>
-  <link>https://vex.blue</link>
+  <title>VEX.blue Articles</title>
+  <link>https://vex.blue/blog</link>
   <description>Blog posts and updates for VEX.blue</description>
   <category>Basic Blogs and Tutorials</category>
   <copyright>2023 VEX.blue. All rights reserved.</copyright>
@@ -14,7 +14,7 @@
     <description>Lately there's been plenty of talk about Threads, Bluesky, Mastodon and many more new Social Media platforms, along with something called the Fediverse. I thought I'd make a post about all of this, along with explain why we as VEX.blue actually love using these systems and encourage people to use them as well.</description>
     <pubDate>2024-09-03 00:20:00 GMT</pubDate>
     <category>Fediverse Info</category>
-    <enclosure url="https://vex.blue/assets/images/thumbnails/default.png" type="img/png" /> 
+    <enclosure url="https://vex.blue/assets/images/thumbnails/default.png" type="img/png"></enclosure> 
   </item>
   <item>
     <title>Welcome to Version 2.2</title>
@@ -22,7 +22,7 @@
     <description>Welcome to version 2.2 of the VEX.blue website, I recently was looking across our wonderful website here and realised that it didn't look so great, possible due to me coding it myself from HTML, CSS and JS (what I don't know much about). So I spent the past few days working on making this website more simple and usable for the general user. This is not only handy for my learning of 'What makes a good website' but also now is getting to the point that I am learning more of what I can do with static websites like this one.</description>
     <pubDate>2024-09-02 18:30:00 GMT</pubDate>
     <category>META</category>
-    <enclosure url="https://vex.blue/assets/images/thumbnails/default.png" type="img/png" /> 
+    <enclosure url="https://vex.blue/assets/images/thumbnails/default.png" type="img/png"></enclosure> 
   </item>
 </channel>
 
