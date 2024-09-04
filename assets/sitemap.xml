@@ -4,16 +4,23 @@
     <url>
         <loc>https://vex.blue</loc>
     </url>
-        <!-- Blogging -->
+        <!-- Articles -->
+        <url>
+            <loc>https://vex.blue/article</loc>
+        </url>
             <!-- 2024 -->
                 <!-- 09 -->
+                    <!-- 04 -->
+                    <url>
+                        <loc>https://vex.blue/article/2024/09/04/retitling-blog-to-articles</loc>
+                    </url>
                     <!-- 03 -->
                     <url>
-                        <loc>https://vex.blue/blog/2024/09/03/decentralised-social-media</loc>
+                        <loc>https://vex.blue/article/2024/09/03/decentralised-social-media</loc>
                     </url>
                     <!-- 02 -->
                     <url>
-                        <loc>https://vex.blue/blog/2024/09/02/welcome-to-v2.2</loc>
+                        <loc>https://vex.blue/article/2024/09/02/welcome-to-v2.2</loc>
                     </url>
     <!-- Services -->
     <url>
