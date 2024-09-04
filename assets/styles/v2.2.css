@@ -158,6 +158,10 @@ body {
     text-decoration: none;
 }
 
+.italics {
+    font-style: italic;
+}
+
 /* Dark Gray */
 .gray-27 {
     color: #272727;
@@ -325,23 +329,29 @@ footer .triple-section {
     border-radius: 1rem;
 }
 
-/* Blog Posts */
-.blogpost {
+/* Article (on /article) */
+.article {
     background:  #d8cbe9;
     border-radius: 1rem;
 }
-    /* Post Type: Fediverse */
-    .posttype-fediverse {
-        background-color: #50e94b;
-        padding: .25rem;
-        border-radius: 1rem;
-    }
-    /* Post Type: META */
-    .posttype-meta {
-        background-color: #4bbae9;
-        padding: .25rem;
-        border-radius: 1rem;
-    }
+    /* Special Article Styling */
+        /* Post Linking (between Articles in an Article) */
+        .articlelink {
+            color:#b40bc7;
+        }
+    /* Post Type (on /article) */
+        /* Post Type: Fediverse */
+        .posttype-fediverse {
+            background-color: #50e94b;
+            padding: .25rem;
+            border-radius: 1rem;
+        }
+        /* Post Type: META */
+        .posttype-meta {
+            background-color: #4bbae9;
+            padding: .25rem;
+            border-radius: 1rem;
+        }
 
 @media (max-width: 800px) {
     .mobile-nav {
