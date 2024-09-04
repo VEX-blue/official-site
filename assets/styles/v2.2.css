@@ -313,6 +313,13 @@ footer .triple-section {
         font-size: 1.75rem;
     }
 
+.services-banner-img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+}
+
 /* Edited by */
 .editedbysam {
     background-color: #50e94b;
@@ -367,6 +374,10 @@ footer .triple-section {
     .spacer {
         width: 100%;
         border-radius: 0rem;
+    }
+
+    .service-img-spacing {
+        padding: .25rem;
     }
 }
 
