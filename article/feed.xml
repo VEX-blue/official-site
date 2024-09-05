@@ -4,10 +4,18 @@
     <title>VEX.blue Articles</title>
     <link>https://vex.blue/article</link>
     <description>The lastest Articles hosted by VEX.blue</description>
-    <category>Bews and Information</category>
+    <category>News and Information</category>
     <copyright>2023 VEX.blue. All rights reserved.</copyright>
     <enclosure url="https://vex.blue/assets/images/logos/vexitica" length="3000" type="image/png"></enclosure> 
     <language>en-gb</language>
+    <item>
+      <title>'No Code' is bad</title>
+      <link>https://vex.blue/article/2024/09/05/no-code-is-bad</link>
+      <description>Have you ever wanted to build a website? Did you know how to 'code' that website? No, well there's sites like Wix, Wordpress and Square out there that allows you to just drag-and-drop your whole website or simply add plugins. These systems are plainly not terrible if you are making a dynamic website with logins and things, especially if you want to join...</description>
+      <pubDate>2024-09-05 15:10:00 GMT</pubDate>
+      <category>Tech</category>
+      <enclosure url="\assets/images/thumbnails/article/2024-09-05--1.png" length="78645" type="image/png"></enclosure> 
+    </item>
     <item>
       <title>Retitling Blog to Articles</title>
       <link>https://vex.blue/article/2024/09/04/retitling-blog-to-articles</link>

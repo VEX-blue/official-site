@@ -359,6 +359,12 @@ footer .triple-section {
             padding: .25rem;
             border-radius: 1rem;
         }
+        /* Post Type: Technology */
+        .posttype-tech {
+            background-color: #9a4be9;
+            padding: .25rem;
+            border-radius: 1rem;
+        }
 
 @media (max-width: 800px) {
     .mobile-nav {
