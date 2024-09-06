@@ -365,6 +365,10 @@ footer .triple-section {
             padding: .25rem;
             border-radius: 1rem;
         }
+    /* Social links */
+    .social-padding {
+        padding-right: 1rem;
+    }
 
 @media (max-width: 800px) {
     .mobile-nav {
