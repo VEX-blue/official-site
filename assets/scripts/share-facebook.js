@@ -6,5 +6,8 @@ Share = {
     url += '&p[url]=' + encodeURIComponent(purl);
     url += '&p[images][0]=' + encodeURIComponent(pimg);
     Share.popup(url);
-    }
+    },
+    popup: function(url) {
+        window.open(url,'','toolbar=0,status=0,width=626, height=436');
+        }
 };
