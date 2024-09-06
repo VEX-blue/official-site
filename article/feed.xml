@@ -9,6 +9,14 @@
     <enclosure url="https://vex.blue/assets/images/logos/vexitica" length="3000" type="image/png"></enclosure> 
     <language>en-gb</language>
     <item>
+      <title>Connect your Bluesky account to the Fediverse</title>
+      <link>https://vex.blue/article/2024/09/06/connect-to-bluesky</link>
+      <description>Having a Bluesky account can mean locking yourself off from the rest of the Fediverse at the moment, due to there custom protocol 'AT Protocol', I'm here today to give you a tutorial on how to make it so your Bluesky profile can be found on the rest...</description>
+      <pubDate>2024-09-06 10:00:00 GMT</pubDate>
+      <category>Fediverse</category>
+      <enclosure url="\assets/images/thumbnails/article/2024-09-06--1.png" length="78645" type="image/png"></enclosure> 
+    </item>
+    <item>
       <title>'No Code' is bad</title>
       <link>https://vex.blue/article/2024/09/05/no-code-is-bad</link>
       <description>Have you ever wanted to build a website? Did you know how to 'code' that website? No, well there's sites like Wix, Wordpress and Square out there that allows you to just drag-and-drop your whole website or simply add plugins. These systems are plainly not terrible if you are making a dynamic website with logins and things, especially if you want to join...</description>
