@@ -13,7 +13,6 @@
         <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
         <script src="\assets/scripts/remove-html.js" defer></script>
         <script src="\assets/scripts/yt-embed.js" defer></script>
-        <scrpt src="\assets/scripts/share-facebook.js" defer></scrpt>
         <!-- Favicon / Webpage Icon -->
         <link rel="icon" type="image/png" href="\assets/images/logos/vexitica-favicon.png">
         <!-- Webpage Title -->
@@ -49,7 +48,9 @@
                 <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
                 <!-- Font Awesome CDN -->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+        <!-- Imported Scripts -->
+        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=66dad499e960c500199ec862&product=inline-share-buttons&source=platform" async="async"></script>
+            </head>
     <body>
             <!-- overlay for mobile -->
             <div id="overlay">
@@ -134,7 +135,7 @@
                     </p>
             </div>
             <div class="center rem1-5">
-                <a href="http://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=Connect your Bluesky account to the Fediverse&p%5Bsummary%5D=DESC&p%5Burl%5D=https://vex.blue/article/2024/09/06/connect-to-bluesky&p%5Bimages%5D%5B0%5D=https://vex.blue/assets/images/thumbnails/article/2024-09-06--1.png" target="_blank" onclick="return Share.me(this);"><i class="fa-brands fa-facebook delinkify gray-27 social-padding"></i></a>
+                <div class="sharethis-inline-share-buttons"></div>
                 <a class="gray-27" href="https://vex.blue/article/feed" target="_blank">
                     <i class="fa-solid fa-rss"></i>
                 </a>
