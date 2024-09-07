@@ -8,6 +8,11 @@
     text-decoration: none;
 }
 
+/* Text Colour */
+.font-white {
+    color: white;
+}
+
 /* Font Sizes */
 
 .rem2-5 {
