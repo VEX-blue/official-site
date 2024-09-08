@@ -360,19 +360,19 @@ footer .triple-section {
     /* Post Type (on /article) */
         /* Post Type: Fediverse */
         .posttype-fediverse {
-            background-color: #50e94b;
+            background-color: #4fbf41;
             padding: .25rem;
             border-radius: 1rem;
         }
         /* Post Type: META */
         .posttype-meta {
-            background-color: #4bbae9;
+            background-color: #5396c0;
             padding: .25rem;
             border-radius: 1rem;
         }
         /* Post Type: Technology */
         .posttype-tech {
-            background-color: #9a4be9;
+            background-color: #a62bbb;
             padding: .25rem;
             border-radius: 1rem;
         }
