@@ -10,7 +10,15 @@
     <language>en-gb</language>
     <item>
       <title>One Year of VEX.blue</title>
-      <link>https://vex.blue/article/2024/09/06/connect-to-bluesky</link>
+      <link>https://vex.blue/article/2024/09/08/fediverse-sharing</link>
+      <description>Back when I wrote 'Decentralised Social Media' an article about the Fediverse and some of the various projects I mentioned about writing another article about how to turn on 'Fediverse Sharing' on threads. This is that article...</description>
+      <pubDate>2024-09-08 16:30:00 GMT</pubDate>
+      <category>Fediverse</category>
+      <enclosure url="\assets/images/thumbnails/article/2024-09-08--1.png" length="78645" type="image/png"></enclosure> 
+    </item>
+    <item>
+      <title>One Year of VEX.blue</title>
+      <link>https://vex.blue/article/2024/09/07/one-year-of-vex.blue</link>
       <description>Yesterday marked our one year anniversary of becoming a company (September 6th, 2023 being our company registration date) and I can tell you we've made both lots of progress as well as so little in other areas, I took breaks from creating and pushing the company at times...</description>
       <pubDate>2024-09-07 13:30:00 GMT</pubDate>
       <category>META</category>

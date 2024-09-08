@@ -369,6 +369,14 @@ footer .triple-section {
     .social-padding {
         padding-right: 1rem;
     }
+    /* Article Image */
+    .article-img {
+        border-radius: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 
 @media (max-width: 800px) {
     .mobile-nav {
