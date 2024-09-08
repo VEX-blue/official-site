@@ -332,13 +332,18 @@ footer .triple-section {
 
 /* Edited by */
 .editedbysam {
-    background-color: #4bbae9;
+    background-color: #5396c0;
     padding: .25rem;
+    width: 100%;
 }
+    .editedbysam:hover {
+        background-color: #4bbae9;
+        border-radius: 2rem;
+    }
 
 /* Written by */
 .writtenbysam {
-    color: #4bbae9;
+    color: #5396c0;
     background-color: #424242;
     padding: 0.5rem;
     padding-top: 0.1rem;
@@ -355,7 +360,7 @@ footer .triple-section {
     /* Special Article Styling */
         /* Post Linking (between Articles in an Article) */
         .articlelink {
-            color: #4bbae9;
+            color: #5396c0;
         }
     /* Post Type (on /article) */
         /* Post Type: Fediverse */
