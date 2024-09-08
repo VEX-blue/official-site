@@ -306,6 +306,9 @@ footer .triple-section {
         color: #fff;
         font-size: 1.25rem;
     }
+        .footer-section-nav a:hover {
+            color: #4bbae9;
+        }
     .copyright {
         text-decoration: none;
         color: #fff;
@@ -316,6 +319,9 @@ footer .triple-section {
         font-size: 1.75rem;
         color: #fff;
     }
+        .socials:hover {
+            color: #4bbae9;
+        }
 
 .services-banner-img {
     width: 95%;
