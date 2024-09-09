@@ -34,6 +34,10 @@
         <season>1</season>
         <episode>1</episode>
         <episodeType>full</episodeType>
+        <author>
+            <name>VEX.blue</name>
+            <email>contact@vex.blue</email>
+        </author>
         <!-- https://vex.blue/podcast/beyond-the-blurb/1/1 -->
         <guid isPermaLink="false">6dc22319-c7e1-4f81-b372-325e206f02d0</guid>
     </item>
