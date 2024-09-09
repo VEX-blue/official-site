@@ -2,11 +2,15 @@
 <rss version="2.0">
   <channel>
     <title>Beyond The Blurb</title>
-    <author>VEX.blue</author>
+    <author>
+        <name>VEX.blue</name>
+        <email>contact@vex.blue</email>
+    </author>
     <owner>
         <name>VEX.blue</name>
         <email>contact@vex.blue</email>
     </owner>
+    <email>contact@vex.blue</email>
     <description>Find out what is Beyond The Blurb of books from people. Hosted by Bethan rhiain Mclen-howells</description>
     <category>Books</category>
     <type>episodic</type>
