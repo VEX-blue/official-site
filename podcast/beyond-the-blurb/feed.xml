@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Beyond The Blurb</title>
+    <link>https://vex.blue/podcast/beyond-the-blurb</link>
+    <description>Find out what is Beyond The Blurb of books from people. Hosted by Bethan rhiain Mclen-howells</description>
+    <category>Books</category>
+    <copyright>2023 VEX.blue. All rights reserved.</copyright>
+    <enclosure url="https://vex.blue/assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpeg"></enclosure> 
+    <language>en-gb</language>
+    <!-- Episode 1 -->
+    <item>
+        <title>Ep.1 - SamXavia with 'How to get found by customers on Google By Darren Hignett'</title>
+        <link>https://vex.blue/article/2024/09/09/welcome-to-v2.3</link>
+        <description>Welcome to episode 1 of Beyond The Blurb, This episode we interview SamXavia on the Book: How to get found by customers - Darren Hignett</description>
+        <pubDate>2023-12-04 12:00:00 GMT</pubDate>
+        <category>Interview</category>
+        <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpeg"/>
+        <enclosure url="\assets/audio/podcasts/beyond-the-blurb/1x01.mp3" type="audio/mpeg" length="29548544"/>
+    </item>
+  </channel>
+</rss>

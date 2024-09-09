@@ -4,44 +4,6 @@
     <url>
         <loc>https://vex.blue</loc>
     </url>
-        <!-- Articles -->
-        <url>
-            <loc>https://vex.blue/article</loc>
-        </url>
-            <!-- 2024 -->
-                <!-- 09 -->
-                    <!-- 09 -->
-                    <url>
-                        <loc>https://vex.blue/article/2024/09/08/welcome-to-v2.3</loc>
-                    </url>
-                    <!-- 08 -->
-                    <url>
-                        <loc>https://vex.blue/article/2024/09/08/fediverse-sharing</loc>
-                    </url>
-                    <!-- 07 -->
-                    <url>
-                        <loc>https://vex.blue/article/2024/09/07/one-year-of-vex.blue</loc>
-                    </url>
-                    <!-- 06 -->
-                    <url>
-                        <loc>https://vex.blue/article/2024/09/06/connect-to-bluesky</loc>
-                    </url>
-                    <!-- 05 -->
-                    <url>
-                        <loc>https://vex.blue/article/2024/09/05/no-code-is-bad</loc>
-                    </url>
-                    <!-- 04 -->
-                    <url>
-                        <loc>https://vex.blue/article/2024/09/04/retitling-blog-to-articles</loc>
-                    </url>
-                    <!-- 03 -->
-                    <url>
-                        <loc>https://vex.blue/article/2024/09/03/decentralised-social-media</loc>
-                    </url>
-                    <!-- 02 -->
-                    <url>
-                        <loc>https://vex.blue/article/2024/09/02/welcome-to-v2.2</loc>
-                    </url>
     <!-- Services -->
     <url>
         <loc>https://vex.blue/services</loc>
@@ -103,4 +65,42 @@
             <loc>https://vex.blue/services/socialmedia</loc>
         </url>
     <!-- Products -->
+    <!-- Articles -->
+        <url>
+            <loc>https://vex.blue/article</loc>
+        </url>
+            <!-- 2024 -->
+                <!-- 09 -->
+                    <!-- 09 -->
+                    <url>
+                        <loc>https://vex.blue/article/2024/09/08/welcome-to-v2.3</loc>
+                    </url>
+                    <!-- 08 -->
+                    <url>
+                        <loc>https://vex.blue/article/2024/09/08/fediverse-sharing</loc>
+                    </url>
+                    <!-- 07 -->
+                    <url>
+                        <loc>https://vex.blue/article/2024/09/07/one-year-of-vex.blue</loc>
+                    </url>
+                    <!-- 06 -->
+                    <url>
+                        <loc>https://vex.blue/article/2024/09/06/connect-to-bluesky</loc>
+                    </url>
+                    <!-- 05 -->
+                    <url>
+                        <loc>https://vex.blue/article/2024/09/05/no-code-is-bad</loc>
+                    </url>
+                    <!-- 04 -->
+                    <url>
+                        <loc>https://vex.blue/article/2024/09/04/retitling-blog-to-articles</loc>
+                    </url>
+                    <!-- 03 -->
+                    <url>
+                        <loc>https://vex.blue/article/2024/09/03/decentralised-social-media</loc>
+                    </url>
+                    <!-- 02 -->
+                    <url>
+                        <loc>https://vex.blue/article/2024/09/02/welcome-to-v2.2</loc>
+                    </url>
 </urlset>
