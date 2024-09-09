@@ -24,7 +24,7 @@
         <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpg"/>
         <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/1x01.mp3" type="audio/mp3" length="29548544"/>
         <duration>30:46</duration>
-        <gild isPermaLink="false">bad21e08-4e89-4a10-89d0-fb9d7850d730<gild>
+        <gild isPermaLink="false">6dc22319-c7e1-4f81-b372-325e206f02d0<gild> <!-- https://vex.blue/podcast/beyond-the-blurb/1/1 -->
     </item>
   </channel>
 </rss>
