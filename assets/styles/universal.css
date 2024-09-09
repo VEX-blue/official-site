@@ -13,14 +13,14 @@
 }
 
 /* Text Colour */
-.font-white {
-    color: white;
-}
-
-/* Legacy Code -- Turns Text to Gray #272727 */
-.gray-27 {
-    color: #272727;
-}
+    /* White */
+    .font-white {
+        color: white;
+    }
+    /* Light Blue */
+    .font-lightblue {
+        color: #5396c0;
+    }
 
 /* Font Sizes */
 .rem2-5 {
@@ -106,10 +106,6 @@
     margin-right: auto;
 }
 
-.hide {
-    display: none;
-}
-
 /* Hide Element */
 .hide-all {
     display: none;
@@ -132,9 +128,5 @@
 
     .hide-mobile {
         display: none;
-    }
-
-    .width-50 {
-        width: 75%;
     }
 }
