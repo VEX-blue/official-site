@@ -3,7 +3,9 @@
   <channel>
     <title>Beyond The Blurb</title>
     <author>VEX.blue</author>
-    <email>contact@vex.blue</email>
+    <owner>
+        <email>contact@vex.blue</email>
+    </owner>
     <description>Find out what is Beyond The Blurb of books from people. Hosted by Bethan rhiain Mclen-howells</description>
     <category>Books</category>
     <copyright>2023 VEX.blue. All rights reserved.</copyright>
