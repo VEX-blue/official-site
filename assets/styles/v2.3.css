@@ -41,6 +41,9 @@ body {
             transform: rotate(180deg);
         }
     }
+.fa-bars {
+    padding: .5rem;
+}
 
 .mobile-nav {
     display: flex;
@@ -79,6 +82,9 @@ body {
     font-size: 1.5rem;
     z-index: 200;
 }
+    .full-nav:hover {
+        background-color: #323232;
+    }
     .full-nav div:nth-child(1) {
         align-items: left;
     }
@@ -130,8 +136,9 @@ body {
     transition: all 200ms ease-in-out;
 }
 
+/* This pushes the content of pages from the top to below the navigation bar */
 .start {
-    margin-top: 7.5rem;
+    margin-top: 8rem;
 }
 
 .spacer {
@@ -151,24 +158,6 @@ body {
     margin-right: auto;
     padding: .5rem;
     border-radius: 0.1rem;
-}
-
-.center {
-    text-align: center;
-}
-
-/* Text Decorations None */
-.delinkify {
-    text-decoration: none;
-}
-
-.italics {
-    font-style: italic;
-}
-
-/* Dark Gray */
-.gray-27 {
-    color: #272727;
 }
 
 @media (max-width: 800px) {
@@ -196,8 +185,13 @@ body {
         width: 85%;
         text-align: center;
         color: #fff;
-        border-radius: 1rem;
+        border-radius: 0rem;
     }
+        @media (max-width: 800px) {
+            .double-section-child {
+                width: 95%;
+            }
+        }
         .double-section-child div h2 {
             text-align: center;
             font-size: 1.75rem;
@@ -261,39 +255,105 @@ body {
     @media (max-width: 768px) {
         .double-section, .triple-section {
             grid-template-columns: repeat(1, 1fr);
-            grid-gap: 1rem;
+            grid-gap: 0.25rem;
         }
-        .double-section-child, .triple-section-child {
+        /* .double-section-child, .triple-section-child {
             padding-bottom: 3rem;
-        }
+        } */
     }
     /* Round Images for Meet the Team */
     .round-image img {
         border-radius: 25rem;
     }
+
+.services-banner-img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+}
     
-form input, form select {
-    border-radius: 1rem;
-    margin: .25rem;
+/* Edited by */
+.editedbysam {
+    background-color: #5396c0;
     padding: .25rem;
-    border: .1rem;
-    width: 20rem;
+    width: 100%;
 }
-form textarea {
+    .editedbysam:hover {
+        background-color: #4bbae9;
+        border-radius: 2rem;
+    }
+    
+/* Written by */
+.writtenbysam {
+    color: #5396c0;
+    background-color: #424242;
+    padding: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
     border-radius: 1rem;
-    margin: .5rem;
-    padding: .25rem;
-    border: .1rem;
-    width: 61.5rem;
-    height: 15rem;
 }
-form button {
+    .writtenbysam:hover {
+        background-color: #5396c0;
+        color: #424242;
+    }
+    
+/* Article (on /article) */
+.article {
+    background:  #424242;
     border-radius: 1rem;
-    margin: .25rem;
-    padding: .25rem;
-    border: .1rem;
-    width: 10rem;
+    color: #fff;
 }
+    .article:hover {
+        background: #323232;
+    }
+    /* Special Article Styling */
+        /* Post Linking (between Articles in an Article) */
+        .articlelink {
+            color: #5396c0;
+        }
+    /* Post Type (on /article) */
+        /* Post Type: Fediverse */
+        .posttype-fediverse {
+            background-color: #4fbf41;
+            padding: .25rem;
+            border-radius: 1rem;
+        }
+        /* Post Type: META */
+        .posttype-meta {
+            background-color: #5396c0;
+            padding: .25rem;
+            border-radius: 1rem;
+        }
+        /* Post Type: Technology */
+        .posttype-tech {
+            background-color: #a62bbb;
+            padding: .25rem;
+            border-radius: 1rem;
+        }
+        /* Post Type: Gaming */
+        .posttype-gaming {
+            background-color: #bb2b2b;
+            padding: .25rem;
+            border-radius: 1rem;
+        }
+    /* Social links */
+    .social-padding {
+        padding-right: 1rem;
+    }
+    /* Article Image */
+    .article-img {
+        border-radius: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+        @media (max-width: 800px) {
+            .article-img {
+                width: 95%;
+            }
+        }
 
 footer .triple-section {
     max-width: 1250px;
@@ -324,77 +384,6 @@ footer .triple-section {
             color: #4bbae9;
         }
 
-.services-banner-img {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 1rem;
-}
-
-/* Edited by */
-.editedbysam {
-    background-color: #5396c0;
-    padding: .25rem;
-    width: 100%;
-}
-    .editedbysam:hover {
-        background-color: #4bbae9;
-        border-radius: 2rem;
-    }
-
-/* Written by */
-.writtenbysam {
-    color: #5396c0;
-    background-color: #424242;
-    padding: 0.5rem;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    border-radius: 1rem;
-}
-
-/* Article (on /article) */
-.article {
-    background:  #424242;
-    border-radius: 1rem;
-    color: #fff;
-}
-    /* Special Article Styling */
-        /* Post Linking (between Articles in an Article) */
-        .articlelink {
-            color: #5396c0;
-        }
-    /* Post Type (on /article) */
-        /* Post Type: Fediverse */
-        .posttype-fediverse {
-            background-color: #4fbf41;
-            padding: .25rem;
-            border-radius: 1rem;
-        }
-        /* Post Type: META */
-        .posttype-meta {
-            background-color: #5396c0;
-            padding: .25rem;
-            border-radius: 1rem;
-        }
-        /* Post Type: Technology */
-        .posttype-tech {
-            background-color: #a62bbb;
-            padding: .25rem;
-            border-radius: 1rem;
-        }
-    /* Social links */
-    .social-padding {
-        padding-right: 1rem;
-    }
-    /* Article Image */
-    .article-img {
-        border-radius: 1rem;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
 @media (max-width: 800px) {
     .mobile-nav {
         padding: 0;
@@ -402,43 +391,8 @@ footer .triple-section {
         font-size: 2rem;
     }
     
-    .fa-bars {
-        padding: .5rem;
-    }
-    
     .spacer {
         width: 100%;
         border-radius: 0rem;
     }
-
-    .service-img-spacing {
-        padding: .25rem;
-    }
-}
-
-
-/* Below this point is old code that needs to be redircted on all pages to /assets/styles/universal.css before it can be deleted */
-
-@media (min-width: 801px) {
-    .mobile-nav {
-        display: none;
-    }
-
-    .hide-desktop {
-        display: none;
-    }
-}
-
-@media (max-width: 800px) {
-    .full-nav {
-        display: none;
-    }
-
-    .hide-mobile {
-        display: none;
-    }
-}
-
-.hide {
-    display: none;
 }

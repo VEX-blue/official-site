@@ -8,13 +8,21 @@
     text-decoration: none;
 }
 
+.italics {
+    font-style: italic;
+}
+
 /* Text Colour */
 .font-white {
     color: white;
 }
 
-/* Font Sizes */
+/* Legacy Code -- Turns Text to Gray #272727 */
+.gray-27 {
+    color: #272727;
+}
 
+/* Font Sizes */
 .rem2-5 {
     font-size: 2.5rem;
 }
@@ -70,6 +78,11 @@
 }
 
 /* Width Size */
+
+.width-25 {
+    width: 25%;
+}
+
 .width-50 {
     width: 50%;
 }
@@ -81,11 +94,20 @@
 .width-90 {
     width: 90%;
 }
+    @media (max-width: 800px) {
+        .width-90, .width-75, .width-50, .width-25 {
+            width: 80%;
+        }
+    }
 
 /* Div Center */
 .div-center {
     margin-left: auto;
     margin-right: auto;
+}
+
+.hide {
+    display: none;
 }
 
 /* Hide Element */
