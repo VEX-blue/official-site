@@ -3,14 +3,14 @@
   <channel>
     <title>Beyond The Blurb</title>
     <link>https://vex.blue/podcast/beyond-the-blurb</link>
-    <itunes:owner>
-        <itunes:email>contact@vex.blue</itunes:email>
-    </itunes:owner>
-    <itunes:author>VEX.blue</itunes:author>
+    <owner>
+        <email>contact@vex.blue</email>
+    </owner>
+    <author>VEX.blue</author>
     <description>Find out what is Beyond The Blurb of books from people. Hosted by Bethan rhiain Mclen-howells</description>
     <category>Books</category>
     <copyright>2023 VEX.blue. All rights reserved.</copyright>
-    <itunes:image href="https://vex.blue/assets/images/podcast/logos/beyondtheblurb.jpg"/>
+    <image href="https://vex.blue/assets/images/podcast/logos/beyondtheblurb.jpg"/>
     <language>en-gb</language>
     <!-- Episode 1 -->
     <item>
