@@ -17,13 +17,14 @@
         <url>https://vex.blue/assets/images/podcast/logos/beyondtheblurb.jpg</url>
     </image>
     <language>en-gb</language>
-    <gild isPermaLink="false">60397775-641c-44d2-80a5-a30e060d25d2</gild>
+    <guid isPermaLink="false">897e0a62859b4a42aab5d8b7375770a5</guld>
     <!-- Episode 1 -->
     <item>
         <title>Ep.1 - SamXavia with 'How to get found by customers on Google By Darren Hignett'</title>
         <description>Welcome to episode 1 of Beyond The Blurb, This episode we interview SamXavia on the Book: How to get found by customers - Darren Hignett</description>
         <pubDate>2023-12-04 12:00:00 GMT</pubDate>
         <category>Interview</category>
+        <creator>VEX.blue</creator>
         <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpg"/>
         <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/1x01.mp3" type="audio/mp3" length="29548544"/>
         <duration>30:46</duration>
@@ -31,7 +32,7 @@
         <episode>1</episode>
         <episodeType>full</episodeType>
         <!-- https://vex.blue/podcast/beyond-the-blurb/1/1 -->
-        <gild isPermaLink="false">6dc22319-c7e1-4f81-b372-325e206f02d0</gild>
+        <guid isPermaLink="false">6dc22319-c7e1-4f81-b372-325e206f02d0</guid>
     </item>
   </channel>
 </rss>
