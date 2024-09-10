@@ -52,6 +52,9 @@
                 <!-- Xavia Podcast -->
                 <!-- Trakt Insider -->
                 <!-- Beyond The Blurb -->
+                <url>
+                    <loc>https://vex.blue/podcast/beyond-the-blurb</loc>
+                </url>
         <!-- VHS Conversion -->
         <url>
             <loc>https://vex.blue/services/vhsconversion</loc>
