@@ -9,6 +9,14 @@
     <enclosure url="https://vex.blue/assets/images/logos/vexitica" length="3000" type="image/png"></enclosure> 
     <language>en-gb</language>
     <item>
+      <title>Light Mode is back</title>
+      <link>https://vex.blue/article/2024/09/10/lightmode-is-back</link>
+      <description>I know yesterday we announced Version 2.3 of the website but today we done even more work on making the website more accessible for everyone. Including bring back Lightmode...</description>
+      <pubDate>2024-09-10 01:30:00 GMT</pubDate>
+      <category>META</category>
+      <enclosure url="\assets/images/thumbnails/article/2024-09-10-1.png" length="78645" type="image/png"></enclosure> 
+    </item>
+    <item>
       <title>Welcome to Version 2.3</title>
       <link>https://vex.blue/article/2024/09/09/welcome-to-v2.3</link>
       <description>Welcome to Version 2.3 of the VEX.blue website, I recieved some feedback from very close friends about how the website was too bright and just seemed to have the feel of 'Apple'. This made me work with them closely to bring a new version of the website Version 2.3, this whole new Dark Theme is now the only way to view the website (currently) but in the future as I develop my skills I will learn how to intergrate a light theme as well into the site, I just want to make sure when you...</description>

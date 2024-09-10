@@ -13,6 +13,7 @@
         <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
         <script src="\assets/scripts/remove-html.js" defer></script>
         <script src="\assets/scripts/yt-embed.js" defer></script>
+        <script src="\assets/scripts/lightmode.js" defer></script>
         <!-- Favicon / Webpage Icon -->
         <link rel="icon" type="image/png" href="\assets/images/logos/vexitica-favicon.png">
         <!-- Webpage Title -->
@@ -51,7 +52,7 @@
         <!-- Imported Scripts -->
     </head>
     <body>
-            <!-- overlay nav for mobile -->
+            <!-- overlay for mobile -->
             <div id="overlay">
                 <div>
                     <i class="fa fa-times" title="button to close mobile navigation" onclick="off()"></i>
@@ -61,6 +62,9 @@
                     <a href="\services/videoediting">Editing</a>
                     <a href="\services">Services</a>
                     <a href="\#contact">Contact</a>
+                </div>
+                <div class="overlay-modes">
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
                 </div>
             </div>
         <header>
@@ -73,7 +77,10 @@
                     <a href="\">Home</a>
                     <a href="\services/videoediting">Editing</a>
                     <a href="\services">Services</a>
-                    <a href="\#contact">Contact</a>
+                    <a class="social-padding" href="\#contact">Contact</a>
+                </div>
+                <div>
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
                 </div>
             </div>
             <!-- Mobile Nav -->
@@ -136,10 +143,10 @@
                     <a href="/" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/podcast/logos/beyondtheblurb.jpg">
-                            <h2 class="rem1-25 center bold-500">Ep. 1 - SamXavia with 'How to get found by customers on Google by Darren Hignett'</h2>
-                            <p class="rem1 center bold-400">Released: 2023-06-00</p>
+                            <h2 class="rem1-25 center bold-500 font-white">Ep. 1 - SamXavia with 'How to get found by customers on Google by Darren Hignett'</h2>
+                            <p class="rem1 center bold-400 font-white">Released: 2023-06-00</p>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-meta font-white">1x01</h4>
+                                <h4 class="rem1 center bold-400 posttype-meta">1x01</h4>
                             </div>
                         </div>
                     </a>
@@ -149,10 +156,10 @@
                     <a href="/" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/podcast/logos/beyondtheblurb.jpg">
-                            <h2 class="rem1-25 center bold-500">Ep. 0 - Trailer</h2>
-                            <p class="rem1 center bold-400">Released: 2023-06-00</p>
+                            <h2 class="rem1-25 center bold-500 font-white">Ep. 0 - Trailer</h2>
+                            <p class="rem1 center bold-400 font-white">Released: 2023-06-00</p>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-tech font-white">0x02</h4>
+                                <h4 class="rem1 center bold-400 posttype-tech">0x02</h4>
                             </div>
                         </div>
                     </a>
@@ -162,10 +169,10 @@
                     <a href="/" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/podcast/logos/beyondtheblurb.jpg">
-                            <h2 class="rem1-25 center bold-500">Intro Music</h2>
-                            <p class="rem1 center bold-400">Released: 2023-05-00</p>
+                            <h2 class="rem1-25 center bold-500 font-white">Intro Music</h2>
+                            <p class="rem1 center bold-400 font-white">Released: 2023-05-00</p>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-tech font-white">0x01</h4>
+                                <h4 class="rem1 center bold-400 posttype-tech">0x01</h4>
                             </div>
                         </div>
                     </a>
@@ -183,21 +190,21 @@
                     <a href="\services">Services</a>
                     <a href="\#contact">Contact</a>
                     <br>
-                    <p>v2.2</p>
+                    <p class="font-white">v2.4</p>
                 </div>
                 <div class="triple-section-child footer-section-nav">
-                    <i class="fa-regular fa-copyright"> Copyright 2023</i> 
+                    <i class="fa-regular fa-copyright font-white"> Copyright 2023</i> 
                     <br>
                     <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27 rem0-5">Created by Samantha E Xavia</a>
                 </div>
                 <div class="triple-section-child footer-section-nav center socials hide-mobile">
-                    <a class="gray-27" href="https://southampton.social/@vexdotblue" target="_blank">
+                    <a href="https://southampton.social/@vexdotblue" target="_blank">
                         <i class="fa-brands fa-mastodon socials"></i>
                     </a>
-                    <a class="gray-27" href="https://www.youtube.com/@vexdotblue/" target="_blank">
+                    <a href="https://www.youtube.com/@vexdotblue/" target="_blank">
                         <i class="fa-brands fa-youtube socials"></i>
                     </a>
-                    <a class="gray-27" href="https://www.threads.net/@vexdotblue/" target="_blank">
+                    <a href="https://www.threads.net/@vexdotblue/" target="_blank">
                         <i class="fa-brands fa-threads socials"></i>
                     </a>
                 </div>

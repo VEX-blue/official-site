@@ -14,9 +14,12 @@
 
 /* Text Colour */
     /* White */
-    .font-white {
+    .font-white, .font-white-perm {
         color: white;
     }
+        .light-mode .font-white {
+                color: #272727;
+        }
     /* Light Blue */
     .font-lightblue {
         color: #5396c0;

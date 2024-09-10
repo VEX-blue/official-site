@@ -11,7 +11,7 @@
         <!-- Personal Scripts -->
         <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
         <script src="\assets/scripts/remove-html.js" defer></script>
-        <script src="\assets/scripts/share-facebook.js" defer></script>
+        <script src="\assets/scripts/lightmode.js" defer></script>
         <!-- Favicon / Webpage Icon -->
         <link rel="icon" type="image/png" href="\assets/images/logos/vexitica-favicon.png">
         <!-- Webpage Title -->
@@ -60,6 +60,9 @@
                     <a href="\services">Services</a>
                     <a href="\#contact">Contact</a>
                 </div>
+                <div class="overlay-modes">
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
+                </div>
             </div>
         <header>
             <!-- Full Nav -->
@@ -71,7 +74,10 @@
                     <a href="\">Home</a>
                     <a href="\services/videoediting">Editing</a>
                     <a href="\services">Services</a>
-                    <a href="\#contact">Contact</a>
+                    <a class="social-padding" href="\#contact">Contact</a>
+                </div>
+                <div>
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
                 </div>
             </div>
             <!-- Mobile Nav -->
@@ -96,13 +102,26 @@
             <br>
             <div class="double-section width-75">
                 <div class="double-section-child">
+                    <a href="\article/2024/09/10/lightmode-is-back" class="delinkify gray-27">
+                        <div class="text-section article">
+                            <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/thumbnails/article/2024-09-10--1.webp">
+                            <h2 class="rem1-75 center bold-500 font-white">Light Mode is back</h2>
+                            <h3 class="rem1-25 center bold-400 font-white">Written by Samanatha Xavia (2024-09-10)</h3>
+                            <div class="div-center width-50">
+                                <h4 class="rem1 center bold-400 posttype-meta font-white-perm">META</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <br>
+                </div>
+                <div class="double-section-child">
                     <a href="\article/2024/09/09/welcome-to-v2.3" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/thumbnails/article/2024-09-09--1.webp">
-                            <h2 class="rem1-75 center bold-500">Welcome to Version 2.3</h2>
-                            <h3 class="rem1-25 center bold-400">Written by Samanatha Xavia (2024-09-09)</h3>
+                            <h2 class="rem1-75 center bold-500 font-white">Welcome to Version 2.3</h2>
+                            <h3 class="rem1-25 center bold-400 font-white">Written by Samanatha Xavia (2024-09-09)</h3>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-meta font-white">Fediverse</h4>
+                                <h4 class="rem1 center bold-400 posttype-meta font-white-perm">META</h4>
                             </div>
                         </div>
                     </a>
@@ -112,10 +131,10 @@
                     <a href="\article/2024/09/08/fediverse-sharing" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/thumbnails/article/2024-09-08--1.webp">
-                            <h2 class="rem1-75 center bold-500">Turn on Fediverse Sharing</h2>
-                            <h3 class="rem1-25 center bold-400">Written by Samanatha Xavia (2024-09-08)</h3>
+                            <h2 class="rem1-75 center bold-500 font-white">Turn on Fediverse Sharing</h2>
+                            <h3 class="rem1-25 center bold-400 font-white">Written by Samanatha Xavia (2024-09-08)</h3>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-fediverse font-white">Fediverse</h4>
+                                <h4 class="rem1 center bold-400 posttype-fediverse font-white-perm">Fediverse</h4>
                             </div>
                         </div>
                     </a>
@@ -125,10 +144,10 @@
                     <a href="\article/2024/09/07/one-year-of-vex.blue" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/thumbnails/article/2024-09-07--1.webp">
-                            <h2 class="rem1-75 center bold-500">One Year of VEX.blue</h2>
-                            <h3 class="rem1-25 center bold-400">Written by Samanatha Xavia (2024-09-07)</h3>
+                            <h2 class="rem1-75 center bold-500 font-white">One Year of VEX.blue</h2>
+                            <h3 class="rem1-25 center bold-400 font-white">Written by Samanatha Xavia (2024-09-07)</h3>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-meta font-white">META</h4>
+                                <h4 class="rem1 center bold-400 posttype-meta font-white-perm">META</h4>
                             </div>
                         </div>
                     </a>
@@ -138,10 +157,10 @@
                     <a href="\article/2024/09/06/connect-to-bluesky" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/thumbnails/article/2024-09-06--1.webp">
-                            <h2 class="rem1-75 center bold-500">Link Bluesky to the Fediverse</h2>
-                            <h3 class="rem1-25 center bold-400">Written by Samanatha Xavia (2024-09-06)</h3>
+                            <h2 class="rem1-75 center bold-500 font-white">Link Bluesky to the Fediverse</h2>
+                            <h3 class="rem1-25 center bold-400 font-white">Written by Samanatha Xavia (2024-09-06)</h3>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-fediverse font-white">Fediverse</h4>
+                                <h4 class="rem1 center bold-400 posttype-fediverse font-white-perm">Fediverse</h4>
                             </div>
                         </div>
                     </a>
@@ -151,10 +170,10 @@
                     <a href="\article/2024/09/05/no-code-is-bad" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/thumbnails/article/2024-09-05--1.webp">
-                            <h2 class="rem1-75 center bold-500">'No Code' is bad</h2>
-                            <h3 class="rem1-25 center bold-400">Written by Samanatha Xavia (2024-09-05)</h3>
+                            <h2 class="rem1-75 center bold-500 font-white">'No Code' is bad</h2>
+                            <h3 class="rem1-25 center bold-400 font-white">Written by Samanatha Xavia (2024-09-05)</h3>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-tech font-white">Technology</h4>
+                                <h4 class="rem1 center bold-400 posttype-tech font-white-perm">Technology</h4>
                             </div>
                         </div>
                     </a>
@@ -164,10 +183,10 @@
                     <a href="\article/2024/09/04/retitled-blog-to-articles" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/thumbnails/article/2024-09-04--1.webp">
-                            <h2 class="rem1-75 center bold-500">Retitled 'Blog' to Articles</h2>
-                            <h3 class="rem1-25 center bold-400">Written by Samanatha Xavia (2024-09-04)</h3>
+                            <h2 class="rem1-75 center bold-500 font-white">Retitled 'Blog' to Articles</h2>
+                            <h3 class="rem1-25 center bold-400 font-white">Written by Samanatha Xavia (2024-09-04)</h3>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-meta font-white">META</h4>
+                                <h4 class="rem1 center bold-400 posttype-meta font-white-perm">META</h4>
                             </div>
                         </div>
                     </a>
@@ -177,10 +196,10 @@
                     <a href="\article/2024/09/03/decentralised-social-media" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/thumbnails/article/2024-09-03--1.webp">
-                            <h2 class="rem1-75 center bold-500">Decentralised Social Media</h2>
-                            <h3 class="rem1-25 center bold-400">Written by Samanatha Xavia (2024-09-03)</h3>
+                            <h2 class="rem1-75 center bold-500 font-white">Decentralised Social Media</h2>
+                            <h3 class="rem1-25 center bold-400 font-white">Written by Samanatha Xavia (2024-09-03)</h3>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-fediverse font-white">Fediverse</h4>
+                                <h4 class="rem1 center bold-400 posttype-fediverse font-white-perm">Fediverse</h4>
                             </div>
                         </div>
                     </a>
@@ -190,10 +209,10 @@
                     <a href="\article/2024/09/02/welcome-to-v2.2" class="delinkify gray-27">
                         <div class="text-section article">
                             <img style="width: 100%; border-radius: 0.75rem;" src="\assets/images/thumbnails/article/2024-09-02--1.webp">
-                            <h2 class="rem1-75 center bold-500">Welcome to Version 2.2</h2>
-                            <h3 class="rem1-25 center bold-400">Written by Samanatha Xavia (2024-09-02)</h3>
+                            <h2 class="rem1-75 center bold-500 font-white">Welcome to Version 2.2</h2>
+                            <h3 class="rem1-25 center bold-400 font-white">Written by Samanatha Xavia (2024-09-02)</h3>
                             <div class="div-center width-50">
-                                <h4 class="rem1 center bold-400 posttype-meta font-white">META</h4>
+                                <h4 class="rem1 center bold-400 posttype-meta font-white-perm">META</h4>
                             </div>
                             
                         </div>
@@ -213,21 +232,21 @@
                     <a href="\services">Services</a>
                     <a href="\#contact">Contact</a>
                     <br>
-                    <p>v2.3</p>
+                    <p class="font-white">v2.4</p>
                 </div>
                 <div class="triple-section-child footer-section-nav">
-                    <i class="fa-regular fa-copyright copyright"> Copyright 2023</i> 
+                    <i class="fa-regular fa-copyright font-white"> Copyright 2023</i> 
                     <br>
                     <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27 rem0-5">Created by Samantha E Xavia</a>
                 </div>
                 <div class="triple-section-child footer-section-nav center socials hide-mobile">
-                    <a class="gray-27" href="https://southampton.social/@vexdotblue" target="_blank">
+                    <a href="https://southampton.social/@vexdotblue" target="_blank">
                         <i class="fa-brands fa-mastodon socials"></i>
                     </a>
-                    <a class="gray-27" href="https://www.youtube.com/@vexdotblue/" target="_blank">
+                    <a href="https://www.youtube.com/@vexdotblue/" target="_blank">
                         <i class="fa-brands fa-youtube socials"></i>
                     </a>
-                    <a class="gray-27" href="https://www.threads.net/@vexdotblue/" target="_blank">
+                    <a href="https://www.threads.net/@vexdotblue/" target="_blank">
                         <i class="fa-brands fa-threads socials"></i>
                     </a>
                 </div>

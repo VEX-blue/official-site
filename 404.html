@@ -13,6 +13,7 @@
         <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
         <script src="\assets/scripts/remove-html.js" defer></script>
         <script src="\assets/scripts/yt-embed.js" defer></script>
+        <script src="\assets/scripts/lightmode.js" defer></script>
         <!-- Favicon / Webpage Icon -->
         <link rel="icon" type="image/png" href="\assets/images/logos/vexitica-favicon.png">
         <!-- Webpage Title -->
@@ -26,15 +27,6 @@
         <meta name="keywords" content="">
         <!-- No Scraping / Indexing -->
         <meta name=”robots” content=”noindex”>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R28PH4H38D"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-R28PH4H38D');
-        </script>
         <!-- Social Media Sharing Info -->
             <!-- Site Name -->
             <meta property="og:site_name" content="VEX.blue">
@@ -72,6 +64,9 @@
                     <a href="\services">Services</a>
                     <a href="\#contact">Contact</a>
                 </div>
+                <div class="overlay-modes">
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
+                </div>
             </div>
         <header>
             <!-- Full Nav -->
@@ -83,7 +78,10 @@
                     <a href="\">Home</a>
                     <a href="\services/videoediting">Editing</a>
                     <a href="\services">Services</a>
-                    <a href="\#contact">Contact</a>
+                    <a class="social-padding" href="\#contact">Contact</a>
+                </div>
+                <div>
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
                 </div>
             </div>
             <!-- Mobile Nav -->
@@ -124,21 +122,21 @@
                     <a href="\services">Services</a>
                     <a href="\#contact">Contact</a>
                     <br>
-                    <p>v2.3</p>
+                    <p class="font-white">v2.4</p>
                 </div>
                 <div class="triple-section-child footer-section-nav">
-                    <i class="fa-regular fa-copyright copyright"> Copyright 2023</i> 
+                    <i class="fa-regular fa-copyright font-white"> Copyright 2023</i> 
                     <br>
                     <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27 rem0-5">Created by Samantha E Xavia</a>
                 </div>
                 <div class="triple-section-child footer-section-nav center socials hide-mobile">
-                    <a class="gray-27" href="https://southampton.social/@vexdotblue" target="_blank">
+                    <a href="https://southampton.social/@vexdotblue" target="_blank">
                         <i class="fa-brands fa-mastodon socials"></i>
                     </a>
-                    <a class="gray-27" href="https://www.youtube.com/@vexdotblue/" target="_blank">
+                    <a href="https://www.youtube.com/@vexdotblue/" target="_blank">
                         <i class="fa-brands fa-youtube socials"></i>
                     </a>
-                    <a class="gray-27" href="https://www.threads.net/@vexdotblue/" target="_blank">
+                    <a href="https://www.threads.net/@vexdotblue/" target="_blank">
                         <i class="fa-brands fa-threads socials"></i>
                     </a>
                 </div>
