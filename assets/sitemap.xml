@@ -55,6 +55,10 @@
                 <url>
                     <loc>https://vex.blue/podcast/beyond-the-blurb</loc>
                 </url>
+                    <!-- 1x01 -->
+                    <url>
+                        <loc>https://vex.blue/podcast/beyond-the-blurb/1/1</loc>
+                    </url>
         <!-- VHS Conversion -->
         <url>
             <loc>https://vex.blue/services/vhsconversion</loc>
@@ -63,6 +67,10 @@
         <url>
             <loc>https://vex.blue/services/southampton.social</loc>
         </url>
+            <!-- Southampton.Social Rules -->
+                <url>
+                    <loc>https://vex.blue/services/southampton.social/rules</loc>
+                </url>
         <!-- Social Media Management -->
         <url>
             <loc>https://vex.blue/services/socialmedia</loc>
