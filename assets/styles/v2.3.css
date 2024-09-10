@@ -138,6 +138,9 @@ button {
             text-decoration: none;
             color: #4bbae9;
         }
+    .full-nav div button {
+        margin-right: 2.5rem;
+    }
 
 /* overlay */
 /* mobile overlay nav */
