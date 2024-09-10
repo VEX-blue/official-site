@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
   <channel>
     <title>Beyond The Blurb</title>
     <author>
@@ -10,6 +10,9 @@
         <name>VEX.blue</name>
         <email>contact@vex.blue</email>
     </owner>
+    <itunes:owner>
+        <itunes:email>contact@vex.blue<itunes:email>
+    </itunes:owner>
     <email>contact@vex.blue</email>
     <description>Find out what is Beyond The Blurb of books from people. Hosted by Bethan rhiain Mclen-howells</description>
     <category>Books</category>
