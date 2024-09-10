@@ -6,11 +6,16 @@
         <name>VEX.blue</name>
         <email>contact@vex.blue</email>
     </author>
+    <itunes:author>
+        <itunes:name>VEX.blue</itunes:name>
+        <itunes:email>contact@vex.blue<itunes:email>
+    </itunes:author>
     <owner>
         <name>VEX.blue</name>
         <email>contact@vex.blue</email>
     </owner>
     <itunes:owner>
+        <itunes:owner>VEX.blue</itunes:owner>
         <itunes:email>contact@vex.blue</itunes:email>
     </itunes:owner>
     <email>contact@vex.blue</email>
