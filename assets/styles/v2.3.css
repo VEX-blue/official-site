@@ -170,7 +170,7 @@ button {
         position: absolute;
         top: 5%;
         left: auto;
-        right: 0%;
+        right: auto;
         transform: translate(-50%, -50%);
         text-align: center;
         font-size: 2rem;
