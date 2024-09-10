@@ -31,18 +31,18 @@ body {
 
 button {
     color: #272727;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
 }
 
 .light-mode button {
     background: #272727;
     color: #fff;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
 }
 .light-mode button:hover {
     background: #323232;
     color: #fff;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
 }
 
 /* X button on Mobile Navigation Menu */
