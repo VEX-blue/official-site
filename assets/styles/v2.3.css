@@ -177,6 +177,7 @@ button {
         transform: translate(-50%, -50%);
         text-align: center;
         font-size: 2.5rem;
+        width: 50%;
     }
 
 /* This pushes the content of pages from the top to below the navigation bar */
