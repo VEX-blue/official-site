@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Beyond The Blurb</title>
+    <author>
+        <name>VEX.blue</name>
+        <email>contact@vex.blue</email>
+    </author>
+    <owner>
+        <name>VEX.blue</name>
+        <email>contact@vex.blue</email>
+    </owner>
+    <itunes:owner>
+        <itunes:name>VEX.blue<itunes:name>
+        <itunes:email>contact@vex.blue</itunes:email>
+    </itunes:owner>
+    <email>contact@vex.blue</email>
+    <description>Find out what is Beyond The Blurb of books from people. Hosted by Bethan rhiain Mclen-howells</description>
+    <category>Books</category>
+    <type>episodic</type>
+    <copyright>VEX.blue</copyright>
+    <image>
+        <link>https://vex.blue/podcast/beyond-the-blurb</link>
+        <title>Beyond The Blurb</title>
+        <url>https://vex.blue/assets/images/podcast/logos/beyondtheblurb.jpg</url>
+    </image>
+    <language>en-gb</language>
+    <guid isPermaLink="false">897e0a62859b4a42aab5d8b7375770a5</guid>
+    <!-- Episode 1 -->
+    <item>
+        <title>Ep.1 - SamXavia with 'How to get found by customers on Google By Darren Hignett'</title>
+        <description>Welcome to episode 1 of Beyond The Blurb, This episode we interview SamXavia on the Book: How to get found by customers - Darren Hignett</description>
+        <pubDate>2023-06-28 12:00:00 GMT</pubDate>
+        <category>Interview</category>
+        <creator>VEX.blue</creator>
+        <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpg"/>
+        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/1x01.mp3" type="audio/mp3" length="29548544"/>
+        <duration>30:46</duration>
+        <season>1</season>
+        <episode>1</episode>
+        <episodeType>full</episodeType>
+        <author>
+            <name>VEX.blue</name>
+            <email>contact@vex.blue</email>
+        </author>
+        <!-- https://vex.blue/podcast/beyond-the-blurb/1/1 -->
+        <guid isPermaLink="false">6dc22319-c7e1-4f81-b372-325e206f02d0</guid>
+    </item>
+    <!-- Trailer -->
+    <item>
+        <title>Ep.0 - Trailer</title>
+        <description>Welcome to Ep.0 the Trailer of Beyond The Blurb. We hope you will enjoy this series.</description>
+        <pubDate>2023-06-21 12:00:00 GMT</pubDate>
+        <category>Trailer</category>
+        <creator>VEX.blue</creator>
+        <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpg"/>
+        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/0x02.mp3" type="audio/mp3" length="289364"/>
+        <duration>00:18</duration>
+        <season>0</season>
+        <episode>2</episode>
+        <episodeType>Trailer</episodeType>
+        <author>
+            <name>VEX.blue</name>
+            <email>contact@vex.blue</email>
+        </author>
+        <!-- https://vex.blue/podcast/beyond-the-blurb/0/2 -->
+        <guid isPermaLink="false">22a73096f3a244ae9df7da39f679fdff</guid>
+    </item>
+    <!-- Intro Music -->
+    <item>
+        <title>Intro Music</title>
+        <description>Welcome to Ep.0 the Trailer of Beyond The Blurb. We hope you will enjoy this series.</description>
+        <pubDate>2023-05-09 12:00:00 GMT</pubDate>
+        <category>Trailer</category>
+        <creator>VEX.blue</creator>
+        <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpg"/>
+        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/0x01.mp3" type="audio/mp3" length="140989"/>
+        <duration>00:08</duration>
+        <season>0</season>
+        <episode>1</episode>
+        <episodeType>Bonus</episodeType>
+        <author>
+            <name>VEX.blue</name>
+            <email>contact@vex.blue</email>
+        </author>
+        <!-- https://vex.blue/podcast/beyond-the-blurb/0/2 -->
+        <guid isPermaLink="false">2dbc69f74f354644a40f34183ac132bd</guid>
+    </item>
+  </channel>
+</rss>
