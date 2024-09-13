@@ -35,7 +35,7 @@
         <category>Interview</category>
         <creator>VEX.blue</creator>
         <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpg"/>
-        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/1x01.mp3" type="audio/mp3" length="29548544"/>
+        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/1x01.mp3" type="audio/mpeg" length="29548544"/>
         <link>https://vex.blue/assets/audio/podcasts/beyond-the-blurb/1x01.mp3</link>
         <duration>30:46</duration>
         <season>1</season>
@@ -56,7 +56,7 @@
         <category>Trailer</category>
         <creator>VEX.blue</creator>
         <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpg"/>
-        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/0x02.mp3" type="audio/mp3" length="289364"/>
+        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/0x02.mp3" type="audio/mpeg" length="289364"/>
         <link>https://vex.blue/assets/audio/podcasts/beyond-the-blurb/0x02.mp3</link>
         <duration>00:18</duration>
         <season>0</season>
@@ -77,7 +77,7 @@
         <category>Trailer</category>
         <creator>VEX.blue</creator>
         <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpg"/>
-        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/0x01.mp3" type="audio/mp3" length="140989"/>
+        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/0x01.mp3" type="audio/mpeg" length="140989"/>
         <link>https://vex.blue/assets/audio/podcasts/beyond-the-blurb/0x01.mp3</link>
         <duration>00:08</duration>
         <season>0</season>
