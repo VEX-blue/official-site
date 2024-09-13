@@ -8,6 +8,15 @@
     <copyright>2023 VEX.blue. All rights reserved.</copyright>
     <enclosure url="https://vex.blue/assets/images/logos/vexitica" length="3000" type="image/png"></enclosure> 
     <language>en-gb</language>
+    <!-- Posts (Newest to Oldest) -->
+    <item>
+      <title>Why we use RSS</title>
+      <link>https://vex.blue/article/2024/09/13/why-we-use-rss</link>
+      <description>So through our last 11 articles we've had at the bottom a RSS icon, This is so if you have a RSS reader (app or website) you will be able to follow our articles directly from the RSS...</description>
+      <pubDate>2024-09-13 14:30:00 GMT</pubDate>
+      <category>Tech</category>
+      <enclosure url="\assets/images/thumbnails/article/2024-09-13-1.png" length="78645" type="image/png"></enclosure> 
+    </item>
     <item>
       <title>I upgarded to an iPhone 15</title>
       <link>https://vex.blue/article/2024/09/12/iphone-15</link>
