@@ -10,6 +10,14 @@
     <language>en-gb</language>
     <!-- Posts (Newest to Oldest) -->
     <item>
+      <title>Buses to Backpack</title>
+      <link>https://vex.blue/article/2024/09/14/pillion</link>
+      <description>I've spent the past month plus being a 'pillion' / passenger for someone on there motorbike, and I've got to say it far out beats getting the bus... So firstly what have I been doing on the back of a motorbike?</description>
+      <pubDate>2024-09-14 16:00:00 GMT</pubDate>
+      <category>Motorbikes</category>
+      <enclosure url="\assets/images/thumbnails/article/2024-09-14-1.png" length="78645" type="image/png"></enclosure> 
+    </item>
+    <item>
       <title>Why we use RSS</title>
       <link>https://vex.blue/article/2024/09/13/why-we-use-rss</link>
       <description>So through our last 11 articles we've had at the bottom a RSS icon, This is so if you have a RSS reader (app or website) you will be able to follow our articles directly from the RSS...</description>

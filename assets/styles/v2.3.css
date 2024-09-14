@@ -396,6 +396,12 @@ button {
             padding: .25rem;
             border-radius: 1rem;
         }
+        /* Post Type: Gaming */
+        .posttype-motorbike {
+            background-color: #2556b7;
+            padding: .25rem;
+            border-radius: 1rem;
+        }
     /* Social links */
     .social-padding {
         padding-right: 1rem;
