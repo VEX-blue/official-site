@@ -49,8 +49,15 @@
         </url>
             <!-- Podcasts -->
                 <!-- Transhampton -->
-                <!-- Xavia Podcast -->
                 <!-- Trakt Insider -->
+                <!-- VEX Podcast -->
+                <url>
+                    <loc>https://vex.blue/podcast/vex-podcast</loc>
+                </url>
+                    <!-- 1x01 -->
+                    <url>
+                        <loc>https://vex.blue/podcast/vex-podcast/1/1</loc>
+                    </url>
                 <!-- Beyond The Blurb -->
                 <url>
                     <loc>https://vex.blue/podcast/beyond-the-blurb</loc>
