@@ -22,12 +22,11 @@ body {
             /* Adjust the base font size for smaller screens */
         }
     }
-
-/* Light Mode */
-.light-mode {
-    background: #fff;
-    color: #272727;
-}
+    /* Light Mode */
+    .light-mode {
+        background: #fff;
+        color: #272727;
+    }
 
 button {
     color: #272727;
