@@ -28,6 +28,46 @@
     <link>https://vex.blue/podcast/vex-podcast</link>
     <language>en-gb</language>
     <guid isPermaLink="false">deefa0d2792f4526be367f542cd4de3f</guid>
+    <!-- Episode 2 -->
+    <item>
+        <title>Ep. 2 - Updates to TraktCasts and Wanted Features</title>
+        <description>
+            Follow the Host
+            &#13;&#10;
+            •  Follow Sam's Trakt (https://trakt.tv/users/SamXavia)
+            &#13;&#10;
+            •  Follow Sam's Mastodon (https://southampton.social/@Sam)
+            &#13;&#10; &#13;&#10;
+            TRAKT UPDATES
+            &#13;&#10;
+            •  The Phone App now has Writers show up in-app (https://forums.trakt.tv/t/add-writer-to-trakt-app/17605) 
+            &#13;&#10; &#13;&#10;
+            SUGGESTED FEATURES
+            &#13;&#10;
+            •  Sales Tracking // Suggested by: Jasmeralia (https://forums.trakt.tv/t/tracking-sales/17689) 
+            &#13;&#10;
+            •  Bookmark / Flagging Notes for Podcasts // Suggested by: Gremlin (https://forums.trakt.tv/t/feature-request-bookmark-flag/17361) 
+            &#13;&#10;
+            •  Multi-Select Personal List Making // Suggested by: Eltoro69 (https://forums.trakt.tv/t/multiple-selections-for-adding-to-personal-list/17448)  
+            &#13;&#10; &#13;&#10;
+            ⁠Published by VEX.blue (https://vex.blue/)
+        </description>
+        <pubDate>2024-02-15 00:00:00 GMT</pubDate>
+        <category>Entertainment</category>
+        <creator>VEX.blue</creator>
+        <enclosure url="https://vex.blue/assets/images/podcast/logos/traktinsider.jpg" length="852110" type="image/jpg"/>
+        <enclosure url="https://vex.blue/assets/audio/podcasts/trakt-insider/1x02.mp3" type="audio/mpeg" length="17655568"/>
+        <duration>18:23</duration>
+        <season>1</season>
+        <episode>2</episode>
+        <episodeType>full</episodeType>
+        <author>
+            <name>VEX.blue</name>
+            <email>contact@vex.blue</email>
+        </author>
+        <!-- https://vex.blue/podcast/trakt-insider/1/2 -->
+        <guid isPermaLink="false">40eb72c42b3e4f978e5db7684e0707e2</guid>
+    </item>
     <!-- Episode 1 -->
     <item>
         <title>Ep.1 - TraktCast BETA and Why I use Trakt</title>
