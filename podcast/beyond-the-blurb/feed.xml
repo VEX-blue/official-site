@@ -68,25 +68,5 @@
         <!-- https://vex.blue/podcast/beyond-the-blurb/0/2 -->
         <guid isPermaLink="false">22a73096f3a244ae9df7da39f679fdff</guid>
     </item>
-    <!-- Intro Music -->
-    <item>
-        <title>Intro Music</title>
-        <description>Welcome to Ep.0 the Trailer of Beyond The Blurb. We hope you will enjoy this series.</description>
-        <pubDate>2023-05-09 12:00:00 GMT</pubDate>
-        <category>Trailer</category>
-        <creator>VEX.blue</creator>
-        <enclosure url="\assets/images/podcast/logos/beyondtheblurb.jpg" length="87149" type="image/jpg"/>
-        <enclosure url="https://vex.blue/assets/audio/podcasts/beyond-the-blurb/0x01.mp3" type="audio/mpeg" length="140989"/>
-        <duration>00:08</duration>
-        <season>0</season>
-        <episode>1</episode>
-        <episodeType>Bonus</episodeType>
-        <author>
-            <name>VEX.blue</name>
-            <email>contact@vex.blue</email>
-        </author>
-        <!-- https://vex.blue/podcast/beyond-the-blurb/0/2 -->
-        <guid isPermaLink="false">2dbc69f74f354644a40f34183ac132bd</guid>
-    </item>
   </channel>
 </rss>
