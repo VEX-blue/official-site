@@ -35,7 +35,7 @@
         <pubDate>2024-09-15 21:00:00 GMT</pubDate>
         <category>Business</category>
         <creator>VEX.blue</creator>
-        <enclosure url="\assets/images/podcast/logos/xavia.jpg" length="180787" type="image/jpg"/>
+        <enclosure url="https://vex.blue/assets/images/podcast/logos/xavia.jpg" length="180787" type="image/jpg"/>
         <enclosure url="https://vex.blue/assets/audio/podcasts/vex-podcast/1x01.mp3" type="audio/mpeg" length="25790780"/>
         <duration>17:54</duration>
         <season>1</season>
