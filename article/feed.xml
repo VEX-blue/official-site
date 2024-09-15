@@ -10,13 +10,22 @@
     <language>en-gb</language>
     <!-- Posts (Newest to Oldest) -->
     <item>
+      <title>Some Fediverse Software</title>
+      <link>https://vex.blue/article/2024/09/15/fediverse-software</link>
+      <description>The 'Decentralised Web' over time will grow into new applications and functions than the centralised counterparts, this is how the original web turned into forums and then further into Social Media, by taking something that already exists and expanding upon the idea of it...</description>
+      <pubDate>2024-09-15 16:00:00 GMT</pubDate>
+      <category>Fediverse</category>
+      <enclosure url="\assets/images/thumbnails/article/2024-09-15-1.png" length="258084" type="image/png"></enclosure> 
+    </item>
+    <item>
       <title>Buses to Backpack</title>
       <link>https://vex.blue/article/2024/09/14/pillion</link>
       <description>I've spent the past month plus being a 'pillion' / passenger for someone on there motorbike, and I've got to say it far out beats getting the bus... So firstly what have I been doing on the back of a motorbike?</description>
       <pubDate>2024-09-14 16:00:00 GMT</pubDate>
       <category>Motorbikes</category>
-      <enclosure url="\assets/images/thumbnails/article/2024-09-14-1.png" length="78645" type="image/png"></enclosure> 
+      <enclosure url="\assets/images/thumbnails/article/2024-09-14-1.png" length="1114220" type="image/png"></enclosure> 
     </item>
+    <!-- Please Update my Thumbnails & 'Length' -->
     <item>
       <title>Why we use RSS</title>
       <link>https://vex.blue/article/2024/09/13/why-we-use-rss</link>

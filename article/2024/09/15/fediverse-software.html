@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Layout v1 -->
+        <meta charset="UTF-8">
+        <!-- Viewport / Layout Size -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Personal Stylesheets -->
+        <link href="\assets/styles/v2.3.css" rel="stylesheet">
+        <link href="\assets/styles/universal.css" rel="stylesheet">
+        <link href="\assets/styles/yt-player.css" rel="stylesheet">
+        <!-- Personal Scripts -->
+        <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
+        <script src="\assets/scripts/remove-html.js" defer></script>
+        <script src="\assets/scripts/yt-embed.js" defer></script>
+        <script src="\assets/scripts/lightmode.js" defer></script>
+        <script src="\assets/scripts/clarity.js" defer></script>
+        <!-- Favicon / Webpage Icon -->
+        <link rel="icon" type="image/png" href="\assets/images/logos/vexitica-favicon.png">
+        <!-- Webpage Title -->
+        <title>Some Fediverse Software | Article | VEX.blue</title>
+        <!-- Webpage Description (#1) -->
+        <meta name="description" content="The 'Decentralised Web' over time will grow into new applications and functions than the centralised counterparts, this is how the original web turned into forums and then further into Social Media, by taking something that already exists and expanding upon the idea of it...">
+        <!-- Author -->
+        <meta name="author" contents="Samantha E Xavia">
+        <meta name="author_url" content="https://southampton.social/@sam">
+        <!-- Tags / Keywords for Webpage -->
+        <meta name="keywords" content="VEX Articles, Articles, VEX.blue Articles, Fediverse, Fediverse Software, Some Fediverse Software, What Fediverse Software Should I Use, How to get into the Fediverse, Why should I join the Fediverse, What is the Fediverse, Learn more about the Fediverse, Is the Fediverse Mastodon, Why is Mastodon called the Fediverse">
+        <!-- Social Media Sharing Info -->
+            <!-- Site Name -->
+            <meta property="og:site_name" content="VEX.blue">
+            <!-- Page Name -->
+            <meta property="og:title" content="Some Fediverse Software | VEX.blue Articles">
+            <!-- Perminant URL -->
+            <meta property="og:url" content="https://vex.blue/article/2024/09/15/fediverse-software">
+            <!-- Type of Page -->
+            <meta property="og:type" content="website">
+            <!-- Description of Webpage (#2) -->
+            <meta property="og:description" content="The 'Decentralised Web' over time will grow into new applications and functions than the centralised counterparts, this is how the original web turned into forums and then further into Social Media, by taking something that already exists and expanding upon the idea of it...">
+            <!-- Featured Image -->
+            <meta property="og:image" content="https://vex.blue/assets/images/thumbnails/article/2024-09-15--1.png">
+            <meta property="og:image:type" content="image/png">
+            <meta property="og:image:width" content="1920">
+            <meta property="og:image:height" content="1080">
+            <meta name="twitter:card" content="summary_large_image">
+        <!-- Imported Fonts -->
+                <!-- Google Fonts -->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+                <!-- Font Awesome CDN -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+            <!-- overlay for mobile -->
+            <div id="overlay">
+                <div>
+                    <i class="fa fa-times" title="button to close mobile navigation" onclick="off()"></i>
+                </div>
+                <div class="overlay-text">
+                    <a href="\">Home</a>
+                    <a href="\services/videoediting">Editing</a>
+                    <a href="\services">Services</a>
+                    <a href="\#contact">Contact</a>
+                </div>
+                <div class="overlay-modes">
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
+                </div>
+            </div>
+        <header>
+            <!-- Full Nav -->
+            <div class="nav full-nav">
+                <div>
+                    <a href="\"><img src="\assets/images/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                </div>
+                <div>
+                    <a href="\">Home</a>
+                    <a href="\services/videoediting">Editing</a>
+                    <a href="\services">Services</a>
+                    <a class="social-padding" href="\#contact">Contact</a>
+                </div>
+                <div>
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
+                </div>
+            </div>
+            <!-- Mobile Nav -->
+            <div class="nav mobile-nav">
+                <div>
+                    <a href="/"><img src="\assets/images/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bars" title="button to open navigation" onclick="on()"></i>
+                </div>
+            </div>
+        </header>
+        <main>
+            <br>
+            <!-- Back to VEXEV -->
+            <p class="start center">
+                <a class="delinkify font-white rem1-5" href="\article">More Articles</a>
+            </p>
+            <div class="text-section width-75">
+                <p class="center">
+                    <!-- Title -->
+                    <h1 class="center rem2 bold-700">Some Fediverse Software</h1>
+                    <!-- Author -->
+                    <h2 class="center rem1-5 bold-500">By <a class="delinkify writtenbysam" href="https://southampton.social/@sam" target="_blank">Samantha Xavia </a></h2>
+                    <!-- Edited -->
+                    <!-- <h3 class="center rem1 bold-400">Last Edited: 2024-09-14 15:30 GMT</h2> -->
+                    <br>
+                    <!-- Post -->
+                    <p class="rem1-25">
+                        The <a class="delinkify italics articlelink" href="\article/2024/09/03/decentralised-social-media">Decentralised Web</a> over time will grow into new applications and functions than the centralised counterparts, this is how the original web turned into forums and then further into Social Media, by taking something that already exists and expanding upon the idea of it. At the moment the Fediverse has a few alternative 'software' to the centralised counter parts. So today I thought I'd give you a basic list and information about some of those Projects.
+                        <br> <br>
+                        Mastodon -- This is one of the first bits software people often think of when talking about the Fediverse. As a Microblogging platform a lot like older twitter this software is great for people wanting to write posts under 500 characters or string together a few posts and make a 'Thread'. Mastodon is a great starting point, just pick an 'instance' / server and off you go.
+                        <br> <br>
+                        Lemmy -- If you are active on Reddit when the Reddit blackout 2023 happened you might have heard or even tried Lemmy. As an alternative to the centralised Reddit or forums based sites, Lemmy is a lot like Older-Reddit in both design and helpfulness. Each 'Community' or Subreddits are you know them from Reddit can be created on new Instances meaning you can have a few communities with the same topic, this is pretty handy as it can solve the power tripping that some people get on Modding a Reddit Forum but also gives the opportunity for actual developers of say a video game to create there own server and run there own community from it and not need anyone actually be a user of there instance. Also this is all without mentioning that Mastodon users can still interact with Lemmy posts from there Mastodon Instance.
+                        <br> <br>
+                        PeerTube -- An alternative to YouTube or just Video platforms in general PeerTube allows you to host your own channels on the Fediverse and have people watch them from the Instances they are using, including Mastodon, allowing for you to run your own PeerTube instance, host the files on there and allow people on Mastodon to view and even comment on the video and still reply through your PeerTube Instance. The main problem that I find with finding a PeerTube instance to upload or even sync my content from YouTube is that they only have limited space or upload caps for people meaning you would rather have to run your own Instance or find one you can donate to and get 'unlimited uploads' if you create a lot of content.
+                        <br> <br>
+                        PixelFed -- An alternative Photo sharing Software a lot like Instagram, PixelFed is a great way to have a simpler experience to Instagram well also being decentralised allowing you to see Photo posts from Mastodon or even just share your life, work or project with photos on the Fediverse. This Software even allows you to import your posts from Instagram making you be able to pick up where you left off.
+                        <br> <br>
+                        Sharkey -- This is actually a Fork of Misskey a more visually pleasing Microblogging platform a lot like Mastodon but more in the style of Facebook or more modern Social Media. Sharkey is great if you want something visually pleasing well also having some really cool functionality such as more reactions for posts, instead of just the simple 'favourite' star on Mastodon or up-down votes on Lemmy or Like & Dislike on PeerTube. Sharkey is truely a wonderful Software that I'd love to run personally but it can be a little bit more demanding due to all the added features for it. Maybe give a Sharkey instance a try, especially if you are a Trans person as the whole Fork is maintained by trans people for trans people.
+                        <br> <br>
+                        Mbin -- Actually another Fork, but instead of Misskey, Mbin is a Fork of Kbin a Microblogging and Forum based publishing software, it allows you to have a reddit like experience with there 'Threads' section of the site and then have more basic talks with Microblogging sites on there 'Microblog' feature. This is kind of the best of both worlds at the moment but unlike Lemmy calling there version of 'Subreddits' as Communities, Mbin calls them 'Magazines'. I used Mbin & Kbin for a little while (about 6 months) and I got to say I love them, and they really capture a mix of social media including the Karma on Reddit, instead called 'Reputation Points'.
+                        <br> <br>
+                        There's also platforms like Threads (Meta's Microblogging platform), Writefreely & Ghost (Blog Posting Platforms), along with many, many more softwares people have developed but these where just a few that I would suggest checking out if you are just trying to find your place in the Fediverse or have certain uses for them, as there are plenty of uses for your own Microblogging, Video Publishing or Forum based platforms. The question is, what is the benefits of running your own decentralised one compared to just joining a centralised one... basically control, your own platform or at least using a small instance what you can contact the admin allows you to know the rules, give feedback to your runners of the Instance and even change how you interact with people online, all without having to start a huge protest or something because Facebook decided to take your favourite Facebook Page off the platform, or because your video on YouTube has been removed due to 'Community Guidelines'. You control your content, to go everywhere, no one can tell you no, they can only block and remove your content from there platform if it's not up to their standards.        
+                </p>
+            </div>
+            <div class="center rem1-5">
+                <a class="font-white" href="https://vex.blue/article/feed" target="_blank">
+                    <i class="fa-solid fa-rss"></i>
+                </a>
+            </div>
+            <br>
+            <div class="spacer"></div>
+        </main>
+        <br>
+        <footer class="center">
+            <div class="triple-section">
+                <div class="triple-section-child footer-section-nav hide-mobile">
+                    <a href="\">Home</a>
+                    <a href="\services/videoediting">Editing</a>
+                    <a href="\services">Services</a>
+                    <a href="\#contact">Contact</a>
+                    <br>
+                    <p class="font-white">v2.4</p>
+                </div>
+                <div class="triple-section-child footer-section-nav">
+                    <i class="fa-regular fa-copyright font-white"> Copyright 2023</i> 
+                    <br>
+                    <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27 rem0-5">Created by Samantha E Xavia</a>
+                </div>
+                <div class="triple-section-child footer-section-nav center socials hide-mobile">
+                    <a href="https://southampton.social/@vexdotblue" target="_blank">
+                        <i class="fa-brands fa-mastodon socials"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@vexdotblue/" target="_blank">
+                        <i class="fa-brands fa-youtube socials"></i>
+                    </a>
+                    <a href="https://www.threads.net/@vexdotblue/" target="_blank">
+                        <i class="fa-brands fa-threads socials"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
