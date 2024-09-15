@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Trakt Insider</title>
+    <author>
+        <name>VEX.blue</name>
+        <email>contact@vex.blue</email>
+    </author>
+    <itunes:author>VEX.blue</itunes:author>
+    <owner>
+        <name>VEX.blue</name>
+        <email>contact@vex.blue</email>
+    </owner>
+    <itunes:owner>
+        <itunes:owner>VEX.blue</itunes:owner>
+        <itunes:email>contact@vex.blue</itunes:email>
+    </itunes:owner>
+    <email>contact@vex.blue</email>
+    <description>The Trakt Insider Podcast is a Podcast hosted by SamXavia once a week to talk about there experience with Trakt.tv a website / app that you can use to mark off TV Shows, Movies and Podcasts</description>
+    <category>Entertainment</category>
+    <type>episodic</type>
+    <copyright>VEX.blue</copyright>
+    <image>
+        <link>https://vex.blue/podcast/vex-podcast</link>
+        <title>The Xavia Podcast</title>
+        <url>https://vex.blue/assets/images/podcast/logos/vex.jpg</url>
+    </image>
+    <link>https://vex.blue/podcast/vex-podcast</link>
+    <language>en-gb</language>
+    <guid isPermaLink="false">deefa0d2792f4526be367f542cd4de3f</guid>
+    <!-- Episode 1 -->
+    <item>
+        <title>Ep.1 - TraktCast BETA and Why I use Trakt</title>
+        <description>
+            Follow the Host
+            •  Follow Sam's Trakt (https://trakt.tv/users/SamXavia) 
+            •  Follow Sam's Mastodon (https://southampton.social/@Sam) 
+
+            Chapters
+            •  (00:00) Intro
+            •  (01:37) TraktCasts - What is it and my thoughts?
+            •  (08:06) What I use Trakt for?
+            •  (13:45) My plans for using Trakt into the future
+            •  (17:50) Outro
+
+            Published by VEX.blue (https://vex.blue)
+        </description>
+        <pubDate>2024-01-30 00:00:00 GMT</pubDate>
+        <category>Entertainment</category>
+        <creator>VEX.blue</creator>
+        <enclosure url="https://vex.blue/assets/images/podcast/logos/traktinsider.jpg" length="852110" type="image/jpg"/>
+        <enclosure url="https://vex.blue/assets/audio/podcasts/trakt-insider/1x01.mp3" type="audio/mpeg" length="17781374"/>
+        <duration>18:31</duration>
+        <season>1</season>
+        <episode>1</episode>
+        <episodeType>full</episodeType>
+        <author>
+            <name>VEX.blue</name>
+            <email>contact@vex.blue</email>
+        </author>
+        <!-- https://vex.blue/podcast/trakt-insider/1/1 -->
+        <guid isPermaLink="false">4bdc1c0329034ebeb7dddac2f62eb5f6</guid>
+    </item>
+  </channel>
+</rss>
