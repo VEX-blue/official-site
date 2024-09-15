@@ -36,7 +36,7 @@
         <category>Business</category>
         <creator>VEX.blue</creator>
         <enclosure url="https://vex.blue/assets/images/podcast/logos/xavia.jpg" length="180787" type="image/jpg"/>
-        <source url="https://vex.blue/assets/audio/podcasts/vex-podcast/1x01.mp3" type="audio/mpeg" length="25790780"/>
+        <enclosure url="https://vex.blue/assets/audio/podcasts/vex-podcast/1x01.mp3" type="audio/mpeg" length="25790780"/>
         <duration>17:54</duration>
         <season>1</season>
         <episode>1</episode>
