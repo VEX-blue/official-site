@@ -10,6 +10,14 @@
     <language>en-gb</language>
     <!-- Posts (Newest to Oldest) -->
     <item>
+      <title>The Future versions of VEX.blue</title>
+      <link>https://vex.blue/article/2024/09/16/future-versions</link>
+      <description>The past week I've been making active efforts to bring Version 2.5 of the website to the world, this time focusing on our Podcasting Services such as being able to play each Podcast episode directly from our website as well as hosting our RSS feed through the website so that places like...</description>
+      <pubDate>2024-09-16 17:00:00 GMT</pubDate>
+      <category>META</category>
+      <enclosure url="https://vex.blue/assets/images/thumbnails/article/2024-09-16--1.webp" length="154194" type="image/webp"/> 
+    </item>
+    <item>
       <title>Some Fediverse Software</title>
       <link>https://vex.blue/article/2024/09/15/fediverse-software</link>
       <description>The 'Decentralised Web' over time will grow into new applications and functions than the centralised counterparts, this is how the original web turned into forums and then further into Social Media, by taking something that already exists and expanding upon the idea of it...</description>

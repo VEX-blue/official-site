@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Layout v1 -->
+        <meta charset="UTF-8">
+        <!-- Viewport / Layout Size -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Personal Stylesheets -->
+        <link href="\assets/styles/v2.3.css" rel="stylesheet">
+        <link href="\assets/styles/universal.css" rel="stylesheet">
+        <link href="\assets/styles/yt-player.css" rel="stylesheet">
+        <!-- Personal Scripts -->
+        <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
+        <script src="\assets/scripts/remove-html.js" defer></script>
+        <script src="\assets/scripts/yt-embed.js" defer></script>
+        <script src="\assets/scripts/lightmode.js" defer></script>
+        <script src="\assets/scripts/clarity.js" defer></script>
+        <!-- Favicon / Webpage Icon -->
+        <link rel="icon" type="image/png" href="\assets/images/logos/vexitica-favicon.png">
+        <!-- Webpage Title -->
+        <title>The Future versions of VEX.blue | Article | VEX.blue</title>
+        <!-- Webpage Description (#1) -->
+        <meta name="description" content="The past week I've been making active efforts to bring Version 2.5 of the website to the world, this time focusing on our Podcasting Services such as being able to play each Podcast episode directly from our website as well as hosting our RSS feed through the website so that places like...">
+        <!-- Author -->
+        <meta name="author" contents="Samantha E Xavia">
+        <meta name="author_url" content="https://southampton.social/@sam">
+        <!-- Tags / Keywords for Webpage -->
+        <meta name="keywords" content="VEX Articles, Articles, VEX.blue Articles, VEX.blue Updates, Version 2.5, Version 3.0, VEX.blue Version 2.5, VEX.blue HUGE UPDATE, To Many Pages, VEX.blue To Many Page">
+        <!-- Social Media Sharing Info -->
+            <!-- Site Name -->
+            <meta property="og:site_name" content="VEX.blue">
+            <!-- Page Name -->
+            <meta property="og:title" content="The Future versions of VEX.blue | VEX.blue Articles">
+            <!-- Perminant URL -->
+            <meta property="og:url" content="https://vex.blue/article/2024/09/16/future-versions">
+            <!-- Type of Page -->
+            <meta property="og:type" content="website">
+            <!-- Description of Webpage (#2) -->
+            <meta property="og:description" content="The past week I've been making active efforts to bring Version 2.5 of the website to the world, this time focusing on our Podcasting Services such as being able to play each Podcast episode directly from our website as well as hosting our RSS feed through the website so that places like...">
+            <!-- Featured Image -->
+            <meta property="og:image" content="https://vex.blue/assets/images/thumbnails/article/2024-09-16--1.png">
+            <meta property="og:image:type" content="image/png">
+            <meta property="og:image:width" content="1920">
+            <meta property="og:image:height" content="1080">
+            <meta name="twitter:card" content="summary_large_image">
+        <!-- Imported Fonts -->
+                <!-- Google Fonts -->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+                <!-- Font Awesome CDN -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+            <!-- overlay for mobile -->
+            <div id="overlay">
+                <div>
+                    <i class="fa fa-times" title="button to close mobile navigation" onclick="off()"></i>
+                </div>
+                <div class="overlay-text">
+                    <a href="\">Home</a>
+                    <a href="\services/videoediting">Editing</a>
+                    <a href="\services">Services</a>
+                    <a href="\#contact">Contact</a>
+                </div>
+                <div class="overlay-modes">
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
+                </div>
+            </div>
+        <header>
+            <!-- Full Nav -->
+            <div class="nav full-nav">
+                <div>
+                    <a href="\"><img src="\assets/images/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                </div>
+                <div>
+                    <a href="\">Home</a>
+                    <a href="\services/videoediting">Editing</a>
+                    <a href="\services">Services</a>
+                    <a class="social-padding" href="\#contact">Contact</a>
+                </div>
+                <div>
+                    <button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button>
+                </div>
+            </div>
+            <!-- Mobile Nav -->
+            <div class="nav mobile-nav">
+                <div>
+                    <a href="/"><img src="\assets/images/logos/vexitica.png" alt="VEX.blue Logo" /></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bars" title="button to open navigation" onclick="on()"></i>
+                </div>
+            </div>
+        </header>
+        <main>
+            <br>
+            <!-- Back to VEXEV -->
+            <p class="start center">
+                <a class="delinkify font-white rem1-5" href="\article">More Articles</a>
+            </p>
+            <div class="text-section width-75">
+                <p class="center">
+                    <!-- Title -->
+                    <h1 class="center rem2 bold-700">Some Fediverse Software</h1>
+                    <!-- Author -->
+                    <h2 class="center rem1-5 bold-500">By <a class="delinkify writtenbysam" href="https://southampton.social/@sam" target="_blank">Samantha Xavia </a></h2>
+                    <!-- Edited -->
+                    <!-- <h3 class="center rem1 bold-400">Last Edited: 2024-09-14 15:30 GMT</h2> -->
+                    <br>
+                    <!-- Post -->
+                    <p class="rem1-25">
+                        The past week I've been making active efforts to bring Version 2.5 of the website to the world, this time focusing on our Podcasting Services such as being able to play each Podcast episode directly from our website as well as hosting our RSS feed through the website so that places like Spotify Podcasts, Apple Podcasts and Amazon Podcasts can easily see the Podcast and update there database in the future of each Podcast. So far we've got through 3 out of 4 podcasts that we host, with lots more work needing to be done to make sure they are accessible on every possible platform such as YouTube & Spotify as they seem to not want to list some of the podcasts.
+                        <br> <br>
+                        At the moment I don't feel Version 2.5 is fully ready to release, and i'll keep working on developing this version of the website to improve on it as I'd love to make sure the Podcasting Service is the most optimal so people 100% understand what they are getting provided to them, as well as what the benefits of going with us are. This doesn't mean Version 2.5 will be just Podcast Development, There are many other sections on the website that will need to be worked on including but not limited to (Might not come to Version 2.5);
+                        <br>
+                        - The Mastodon Hosting Service; So far we've just put a basic layout for the Mastodon Hosting Service but I don't believe we've explained what the benefits of going with us, such as the 'Blocklist' we can add along with update for each Instance we help create and run.
+                        <br>
+                        - Social Media Management; The Social Media service is very much under represented on what we can do, and needs a well needed update showcasing what we can do for each service as well as prices and things for replies and interacting with your community for you on certain platforms.
+                        <br>
+                        - Basic Websites; The Basic Websites section was created very quickly and hasn't been worked on since it was created. It does really need an update with possibly little Portfolio pages on what I could create for customers, there's always the need to reuse-code and make something 'Basic' that someone might want as a template for there own website.
+                        <br> <br>
+                        There's a lot of things that I want to work on for this site but we are rapidly gaining pages, This isn't a completely bad thing, with new Articles daily and new pages to showcase the Podcasts & Edits we work on, it's understandable that we will get a lot of pages over time. There is a downside on developing the site the way we are at the moment though, updatability; If I needed to change an element of the page layout such as changing our 'Editing' Tab at the top of each page into the 'Articles' button instead, this would mean I'd have to update it on each page manually making the update of just that one 'feature' take a few hours or longer if the site get's over 100 pages big. This would be solvable learning how to create a Dynamic website.
+                        <br> <br>
+                        What are some of the benefits of building a Dynamic Website? -- One of the Benefits would be easy updatability for things such as layouts for the website allowing me to change the Header or Footer with just one simple click? Another Benefit would be the use of things like Databases and APIs, This is something I've been wanting to learn for a little while and would allow me to create logins for the website, making it so I can add small features such as 'Reactions' and even comments for the site, allowing for more communication and interaction across the whole site. This does mean I will have to look into a framework such as React to securely use the data and even allow people to login from things such as Google, Apple or Facebook accounts if they so wish to.
+                        <br> <br>
+                        Overall the benefits of a dynamic website doesn't come without a cost. We'd need to start paying for or running our own servers to host the website on but the benefits of building and updating our own platform to do the things we wish to would bring the possibility of new services for people, such as developing my own TV and Movie Tracker, How about a Podcasting hosting service, How about a full on Mobile app for the website or even splitting each of my services into there own app allowing you to Listen to Podcasts on one app, Read our Articles on another and Track your TV Shows and Movies on another.
+                        <br> <br>
+                        So why haven't you done this sort of thing already? -- Simply, experience. I have only really known how to develop a static website, no databases, no contact forums, no fancy log in screen. This doesn't mean I can't learn it but it will take a while to do so. So we will be sticking in Version 2.0 for the foreseeable future as all of this Dynamic website stuff is more for Version 3.0 but you never know, I may actually learn these systems faster either of us can think is possible and just click in my head, it seems like some things do that for me, Maybe due to my autism or something.
+                        <br> <br>
+                        Why bring this all up? -- I'm a very strange person, I need goals to head for and giving myself the goals is all well and good but publicly posting something about it kind of keeps me to my word, so if in 6 months to a year I haven't even made an update or effort towards making the whole site more dynamic please just contact me. But the pages and developments I do want to do the site is something really cool that could be really worked on and developed into something really cool for people to view, knowing I went from a small really stupid website that I made 5 pages through basic HTML and CSS to something dynamic that people can use would be a really cool step.
+                        <br> <br>
+                        Wouldn't it be hard making two versions of the website at the same time? -- Maybe but anything I learn from the 2.0 pages will be workable and easily copied into the 3.0 stuff, as the 3.0 stuff would be the replacement for 2.0 once I implement everything into it anyway. I may even do a few META articles about it just to show the progress over time as that would be a really cool thing to show off with the progress slowly getting there but due to life, i'd most likely not being spending 50% let alone 90% of my time on 3.0 but it's better to have a slow burn instead of a quick one.      
+                </p>
+            </div>
+            <div class="center rem1-5">
+                <a class="font-white" href="https://vex.blue/article/feed" target="_blank">
+                    <i class="fa-solid fa-rss"></i>
+                </a>
+            </div>
+            <br>
+            <div class="spacer"></div>
+        </main>
+        <br>
+        <footer class="center">
+            <div class="triple-section">
+                <div class="triple-section-child footer-section-nav hide-mobile">
+                    <a href="\">Home</a>
+                    <a href="\services/videoediting">Editing</a>
+                    <a href="\services">Services</a>
+                    <a href="\#contact">Contact</a>
+                    <br>
+                    <p class="font-white">v2.4</p>
+                </div>
+                <div class="triple-section-child footer-section-nav">
+                    <i class="fa-regular fa-copyright font-white"> Copyright 2023</i> 
+                    <br>
+                    <a href="https://southampton.social/@sam" target="_blank" class="delinkify gray-27 rem0-5">Created by Samantha E Xavia</a>
+                </div>
+                <div class="triple-section-child footer-section-nav center socials hide-mobile">
+                    <a href="https://southampton.social/@vexdotblue" target="_blank">
+                        <i class="fa-brands fa-mastodon socials"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@vexdotblue/" target="_blank">
+                        <i class="fa-brands fa-youtube socials"></i>
+                    </a>
+                    <a href="https://www.threads.net/@vexdotblue/" target="_blank">
+                        <i class="fa-brands fa-threads socials"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

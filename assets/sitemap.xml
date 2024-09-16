@@ -135,6 +135,11 @@
         </sitemap>
             <!-- 2024 -->
                 <!-- 09 -->
+                    <!-- 16 -->
+                    <sitemap>
+                        <loc>https://vex.blue/article/2024/09/16/future-versions</loc>
+                        <lastmod>2024-09-16</lastmod>
+                    </sitemap>
                     <!-- 15 -->
                     <sitemap>
                         <loc>https://vex.blue/article/2024/09/15/fediverse-software</loc>
