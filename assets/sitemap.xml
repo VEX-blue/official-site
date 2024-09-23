@@ -1,213 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage -->
-    <sitemap>
+    <url>
         <loc>https://vex.blue</loc>
         <lastmod>2024-09-15</lastmod>
-    </sitemap>
+    </url>
     <!-- Services -->
-    <sitemap>
+    <url>
         <loc>https://vex.blue/services</loc>
         <lastmod>2024-09-15</lastmod>
-    </sitemap>
+    </url>
         <!-- Video Editing -->
-        <sitemap>
+        <url>
             <loc>https://vex.blue/services/videoediting</loc>
             <lastmod>2024-09-15</lastmod>
-        </sitemap>
+        </url>
             <!-- 20 - Samantha Xavia College Edits -->
-                <sitemap>
+                <url>
                     <loc>https://vex.blue/vexev/20/1</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
-                <sitemap>
+                </url>
+                <url>
                     <loc>https://vex.blue/vexev/20/2</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
-                <sitemap>
+                </url>
+                <url>
                     <loc>https://vex.blue/vexev/20/3</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
+                </url>
             <!-- 32 - Transhampton Podcast -->
-                <sitemap>
+                <url>
                     <loc>https://vex.blue/vexev/32/1</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
-                <sitemap>
+                </url>
+                <url>
                     <loc>https://vex.blue/vexev/32/2</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
+                </url>
             <!-- 33 - Hitman Fish Only Challenge (TransPlayUK) -->
-                <sitemap>
+                <url>
                     <loc>https://vex.blue/vexev/33/1</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
-                <sitemap>
+                </url>
+                <url>
                     <loc>https://vex.blue/vexev/33/2</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
-                <sitemap>
+                </url>
+                <url>
                     <loc>https://vex.blue/vexev/33/3</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
+                </url>
             <!-- VEX Tutorials -->
-                <sitemap>
+                <url>
                     <loc>https://vex.blue/vexev/34/1</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
+                </url>
         <!-- Podcasting -->
-        <sitemap>
+        <url>
             <loc>https://vex.blue/services/podcasting</loc>
             <lastmod>2024-09-15</lastmod>
-        </sitemap>
+        </url>
             <!-- Podcasts -->
                 <!-- Transhampton -->
                 <!-- Trakt Insider -->
-                <sitemap>
+                <url>
                     <loc>https://vex.blue/podcast/trakt-insider</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
+                </url>
                     <!-- 1x01 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/podcast/trakt-insider/1/1</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 1x02 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/podcast/trakt-insider/1/2</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                 <!-- VEX Podcast -->
-                <sitemap>
+                <url>
                     <loc>https://vex.blue/podcast/vex-podcast</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
+                </url>
                     <!-- 1x01 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/podcast/vex-podcast/1/1</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                 <!-- Beyond The Blurb -->
-                <sitemap>
+                <url>
                     <loc>https://vex.blue/podcast/beyond-the-blurb</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
+                </url>
                     <!-- 1x01 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/podcast/beyond-the-blurb/1/1</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 0x02 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/podcast/beyond-the-blurb/0/2</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 0x01 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/podcast/beyond-the-blurb/0/1</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
         <!-- VHS Conversion -->
-        <sitemap>
+        <url>
             <loc>https://vex.blue/services/vhsconversion</loc>
             <lastmod>2024-09-15</lastmod>
-        </sitemap>
+        </url>
         <!-- Southampton.Social -->
-        <sitemap>
+        <url>
             <loc>https://vex.blue/services/southampton.social</loc>
             <lastmod>2024-09-15</lastmod>
-        </sitemap>
+        </url>
             <!-- Southampton.Social Rules -->
-                <sitemap>
+                <url>
                     <loc>https://vex.blue/services/southampton.social/rules</loc>
                     <lastmod>2024-09-15</lastmod>
-                </sitemap>
+                </url>
         <!-- Social Media Management -->
-        <sitemap>
+        <url>
             <loc>https://vex.blue/services/socialmedia</loc>
             <lastmod>2024-09-15</lastmod>
-        </sitemap>
+        </url>
     <!-- Products -->
     <!-- Articles -->
-        <sitemap>
+        <url>
             <loc>https://vex.blue/article</loc>
             <lastmod>2024-09-15</lastmod>
-        </sitemap>
+        </url>
             <!-- 2024 -->
                 <!-- 09 -->
                     <!-- 16 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/16/future-versions</loc>
-                        <lastmod>2024-09-16</lastmod>
-                    </sitemap>
+                        <lastmod>2024-09-22</lastmod>
+                    </url>
                     <!-- 15 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/15/fediverse-software</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 14 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/14/pillion</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 13 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/13/why-we-use-rss</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 12 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/12/iphone-15</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 11 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/11/satisfactory-1.0</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 10 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/10/lightmode-is-back</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 09 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/09/welcome-to-v2.3</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 08 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/08/fediverse-sharing</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 07 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/07/one-year-of-vex.blue</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 06 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/06/connect-to-bluesky</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 05 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/05/no-code-is-bad</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 04 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/04/retitling-blog-to-articles</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 03 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/03/decentralised-social-media</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
+                    </url>
                     <!-- 02 -->
-                    <sitemap>
+                    <url>
                         <loc>https://vex.blue/article/2024/09/02/welcome-to-v2.2</loc>
                         <lastmod>2024-09-15</lastmod>
-                    </sitemap>
-</sitemapindex>
+                    </url>
+</urlset>
