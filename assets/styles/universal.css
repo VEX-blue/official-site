@@ -134,6 +134,19 @@
     line-height: 1rem;
 }
 
+/* Img Height */
+.img-height5 {
+    height: 5rem;
+}
+
+.img-height7-5 {
+    height: 7.5rem;
+}
+
+.img-height10 {
+    height: 10rem;
+}
+
 /* Div Center */
 .div-center {
     margin-left: auto;
