@@ -4,10 +4,15 @@
 }
 
 body {
-    background: #f5f5f5;
+    
+    background-color: #272727;
+    background-image: linear-gradient(to bottom right, #5c2501, #692b01, #9d3f00);
+    background-size: cover; /* Optional: Ensures the gradient covers the whole area */
+    background-repeat: no-repeat; /* Prevents tiling of the background */
     margin: 0;
     box-sizing: border-box;
-    color: #272727;
+    color: #f5f5f5;
+    height: 100%;
 }
         @media (max-width: 967px) {
             html {
@@ -25,7 +30,7 @@ body {
 /* X button on Mobile Navigation Menu */
 .fa-times {
     font-size: 4rem;
-    color: #272727;
+    color: #f5f5f5;
     padding: 1rem;
 }
     .fa-times:hover {
@@ -55,7 +60,7 @@ body {
         align-items: left;
     }
         .mobile-nav div:nth-child(1) img {
-            height: 7.5rem;
+            height: 5rem;
             padding: 0 .5rem;
             padding-top: 0.75rem;
         }
@@ -66,9 +71,9 @@ body {
         .mobile-nav div:nth-child(2) i {
             text-decoration: none;
             padding: 2.5rem;
-            padding-top: 3rem;
+            padding-top: 2rem;
             font-size: 3rem;
-            color: #fff;
+            color: #f5f5f5;
         }
 
 /* Full Nav */
@@ -81,30 +86,35 @@ body {
     width: 100%;
     font-size: 1.5rem;
     z-index: 200;
+    background-image: linear-gradient(to bottom right, #166e3f, #0e5d33, rgb(1, 165, 105));
+    background-size: cover; /* Optional: Ensures the gradient covers the whole area */
+    background-repeat: no-repeat; /* Prevents tiling of the background */
+    padding-bottom: 1rem;
 }
-    .full-nav:hover {
-        background-color: #c5c5c5;
-    }
     .full-nav div:nth-child(1) {
         align-items: left;
     }
         .full-nav div:nth-child(1) img {
             height: 7.5rem;
             padding: 0 .5rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
         }
-    .full-nav div:nth-child(2) {
+    .full-nav div:nth-child(1) {
         word-spacing: 1.5rem;
-        text-align: right;
+        /* text-align: right; */
         font-size: 1.5rem;
-        width: 80%;
+        /* width: 80%; */
     }
-        .full-nav div:nth-child(2) a {
+        .full-nav div:nth-child(1) a {
             text-decoration: none;
-            color: #272727;
+            color: #f5f5f5;
         }
-        .full-nav div:nth-child(2) a:hover {
+        .full-nav div:nth-child(1) a:hover {
             text-decoration: none;
-            color: #4b97e9;
+            color: #f5f5f5;
         }
 
 /* overlay */
@@ -143,4 +153,60 @@ body {
         text-align: center;
         font-size: 2.5rem;
         width: 50%;
+    }
+
+/* This pushes the content of pages from the top to below the navigation bar */
+.start {
+    margin-top: 10rem;
+}
+    @media (max-width: 980px) {
+        .start {
+            margin-top: 2rem;
+        }
+
+        .banner {
+            display: none;
+        }
+    }
+
+.background-white {
+    background-image: linear-gradient(to bottom right, #ede6e1, #dfdfdf, #fff4ec);
+}
+
+/* Double Section */
+.double-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: .5rem auto 2rem;
+    max-width: 1200px;
+    color: #fff;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+    .double-section-child {
+        width: 85%;
+        text-align: center;
+        color: #fff;
+        border-radius: 0rem;
+    }
+        @media (max-width: 800px) {
+            .double-section-child {
+                width: 95%;
+            }
+        }
+        .double-section-child div h2 {
+            text-align: center;
+            font-size: 1.75rem;
+            padding: 0 .25rem;
+        }
+        .double-section-child div p {
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 0 .25rem;
+        }
+    @media (max-width: 768px) {
+        .double-section, .triple-section {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 0.25rem;
+        }
     }
