@@ -10,6 +10,14 @@
     <language>en-gb</language>
     <!-- Posts (Newest to Oldest) -->
     <item>
+      <title>Welcome to v2.5</title>
+      <link>https://vex.blue/article/2024/10/21/welcome-to-v2.5</link>
+      <description>There's been a huge update in the works to try and make sure the website is still updatable in the future, with me looking into possibly using PHP or React in the future of the website for easier updates in the future.</description>
+      <pubDate>2024-10-21 01:00:00 GMT</pubDate>
+      <category>META</category>
+      <enclosure url="https://vex.blue/assets/images/thumbnails/article/2024-10-21--1.webp" length="21870" type="image/webp"/> 
+    </item>
+    <item>
       <title>The Future versions of VEX.blue</title>
       <link>https://vex.blue/article/2024/09/16/future-versions</link>
       <description>The past week I've been making active efforts to bring Version 2.5 of the website to the world, this time focusing on our Podcasting Services such as being able to play each Podcast episode directly from our website as well as hosting our RSS feed through the website so that places like...</description>
