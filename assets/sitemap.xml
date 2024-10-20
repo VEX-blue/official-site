@@ -118,15 +118,21 @@
             <lastmod>2024-09-15</lastmod>
         </url>
             <!-- Southampton.Social Rules -->
-                <url>
-                    <loc>https://vex.blue/services/southampton.social/rules</loc>
-                    <lastmod>2024-09-15</lastmod>
-                </url>
+            <url>
+                <loc>https://vex.blue/services/southampton.social/rules</loc>
+                <lastmod>2024-09-15</lastmod>
+            </url>
         <!-- Social Media Management -->
         <url>
             <loc>https://vex.blue/services/socialmedia</loc>
             <lastmod>2024-09-15</lastmod>
         </url>
+        <!-- Websites -->
+            <!-- Creek Events -->
+            <url>
+                <loc>https://vex.blue/services/websites/creek-events</loc>
+                <lastmod>2024-10-20</lastmod>
+            </url>
     <!-- Products -->
     <!-- Articles -->
         <url>
