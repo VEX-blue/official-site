@@ -6,7 +6,7 @@
 body {
     
     background-color: #272727;
-    background-image: linear-gradient(to bottom right, #5c2501, #692b01, #9d3f00);
+    background-image: linear-gradient(to bottom right, #c55103, #69320d, #b35414);
     background-size: cover; /* Optional: Ensures the gradient covers the whole area */
     background-repeat: no-repeat; /* Prevents tiling of the background */
     margin: 0;
@@ -86,7 +86,7 @@ body {
     width: 100%;
     font-size: 1.5rem;
     z-index: 200;
-    background-image: linear-gradient(to bottom right, #166e3f, #0e5d33, rgb(1, 165, 105));
+    background-image: linear-gradient(to bottom right, #165c01, #336901, #8d9d00);
     background-size: cover; /* Optional: Ensures the gradient covers the whole area */
     background-repeat: no-repeat; /* Prevents tiling of the background */
     padding-bottom: 1rem;
@@ -173,6 +173,39 @@ body {
     background-image: linear-gradient(to bottom right, #ede6e1, #dfdfdf, #fff4ec);
 }
 
+.background-green {
+    background-image: linear-gradient(to top right, #165c01, #336901, #8d9d00);
+    background-size: cover; /* Optional: Ensures the gradient covers the whole area */
+    background-repeat: no-repeat; /* Prevents tiling of the background */
+}
+
+.background-brown {
+    background-image: linear-gradient(to bottom right, #c55103, #69320d, #b35414);
+    background-size: cover; /* Optional: Ensures the gradient covers the whole area */
+    background-repeat: no-repeat; /* Prevents tiling of the background */
+}
+
+.socials {
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: #fff;
+}
+    .socials:hover {
+        color: #8d9d00;
+    }
+.footer-section-nav {
+    word-spacing: .5rem;
+    font-size: 1.25rem;
+}
+    .footer-section-nav a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.25rem;
+    }
+        .footer-section-nav a:hover {
+            color: #8d9d00;
+        }
+
 /* Double Section */
 .double-section {
     display: grid;
@@ -204,6 +237,58 @@ body {
             font-size: 1.5rem;
             padding: 0 .25rem;
         }
+.triple-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: .5rem auto 2rem;
+    max-width: 1200px;
+        color: #fff;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+    .triple-section img {
+        border-radius: 1rem;
+        width: 95%;
+    }
+    .triple-section-child {
+        width: 90%;
+        text-align: center;
+        color: #fff;
+        border-radius: 0.5rem;
+    }
+        .triple-section-child div p {
+            text-align: center;
+            font-size: 1.25rem;
+            padding: 0 .25rem;
+        }
+        .triple-section-child div h3 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 1rem;
+        }
+        .triple-section-child div h4 {
+            font-size: 1.50rem;
+            font-weight: 600;
+            margin: 1rem;
+        }
+        .triple-section-child div h5 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 1rem;
+        }
+        .triple-section-child div a {
+            padding: .5rem 1.5rem;
+            background-color: #336901;
+            color: #fff;
+            border: none;
+            border-radius: 1.5rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+            align-self: center;
+        }
+            .triple-section-child div a:hover {
+                color: #fff;
+            }
     @media (max-width: 768px) {
         .double-section, .triple-section {
             grid-template-columns: repeat(1, 1fr);
