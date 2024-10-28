@@ -348,6 +348,37 @@ button {
             background-color: #4bbae9;
             color: #424242;
         }
+
+
+/* Product */ 
+.product {
+    color: #ffffff;
+    background-color: #353535;
+    padding: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 1rem;
+}
+    .product:hover {
+        background-color: #505050;
+        color: #424242;
+    }
+    /* Light Mode */
+    .light-mode .product {
+        background-color: #28993b;
+    }
+        .light-mode .product:hover {
+            background-color: #28993b;
+            color: #424242;
+        }
+    .product:hover > div > p {
+        color: #ffffff;
+    }
+    .product-image {
+        background-color: #5396c0;
+        padding: .25rem;
+        width: 100%;
+    }
     
 /* Article (on /article) */
 .article {
