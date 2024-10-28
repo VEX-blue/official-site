@@ -309,7 +309,7 @@ button {
         border-radius: 25rem;
     }
 
-.services-banner-img {
+.services-banner-img, .products-banner-img {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
