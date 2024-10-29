@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage -->
     <url>
         <loc>https://vex.blue</loc>
         <lastmod>2024-10-20</lastmod>
+    </url>
+    <!-- Products -->
+    <url>
+        <loc>https://vex.blue/products</loc>
+        <lastmod>2024-10-29</lastmod>
     </url>
     <!-- Services -->
     <url>
