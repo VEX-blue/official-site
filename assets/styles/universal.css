@@ -3,6 +3,18 @@
     text-align: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
 /* Text Decorations None */
 .delinkify {
     text-decoration: none;
@@ -136,6 +148,15 @@
 /* Text Height */
 .text-height1 {
     line-height: 1rem;
+}
+
+/* Margins */
+.margin-top0-25 {
+    margin-top: 0.25rem;
+}
+
+.margin-top0-5 {
+    margin-top: 0.5rem;
 }
 
 /* Img Height */
