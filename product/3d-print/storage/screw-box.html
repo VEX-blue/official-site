@@ -12,6 +12,7 @@
         <!-- Personal Scripts -->
         <script src="\assets/scripts/mobile-navigation-overlay.js" defer></script>
         <script src="\assets/scripts/remove-html.js" defer></script>
+        <script src="\assets/scripts/carousel.js" defer></script>
         <script src="\assets/scripts/yt-embed.js" defer></script>
         <script src="\assets/scripts/lightmode.js" defer></script>
         <script src="\assets/scripts/clarity.js" defer></script>
@@ -97,34 +98,67 @@
         </header>
         <main>
             <br>
-            <!-- Back to VEXEV -->
+            <!-- Top of page -->
             <div class="start center"></div>
-            <div class="text-section width-75">
-                <div class="width-50">
-                    <h1 class="text-center rem2 bold-700">USB & SD CARD HOLDER</h1>
-                    <div class="width-75">
-                        <img class="product-image margin-top0-5" src="\assets/images/products/3d-print/storage/screw-box.jpeg" alt="Product Image" loading="lazy">
+            <h1 class="text-center rem2 bold-700">INFINITY CUBE</h1>
+            <div class="double-section">
+                <!-- Images -->
+                <div class="double-section-child">
+                    <div class="carousel">
+                        <div class="carousel-images">
+                            <img class="margin-top0-5" src="\assets/images/products/3d-print/storage/screw-box/001.jpeg" alt="Screw Box Image 1" loading="lazy">
+                        </div>
+                        <button class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</button>
+                        <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>                                
                     </div>
                 </div>
-                <div>
-                    <h3 class="text-left rem1-5 bold-500">Basic Info</h2>
+                <!-- Basic INFO -->
+                <div class="double-section-child text-left">
                     <p class="rem1-25 width-90">
-                        <i class="fa-solid fa-circle-info"></i> ID: 2
-                        <br>
-                        <i class="fa-solid fa-paint-roller"></i> Colour: White (0) - Black (1) - Red (2)
-                        <br>
-                        <i class="fa-solid fa-ruler"></i> Size: TBA
-                        <br>
-                        <i class="fa-solid fa-wallet"></i> Price: £10 + Postage
-                        <br> <br>
-                    </p>
-                    <h3 class="text-left rem1-5 bold-500">Description</h2>
-                    <p class="rem1-25 width-90">
-                        The USB & SD Card Holder is a print in place Storage Solution for 8 USB Sticks, 8 SD Cards and 5 Micro-SD Cards. Perfect for a Filmmaker, Video Editor or just those who love storing everything on USBs. Can be done in a select amount of colours including Black, White & Red.
-                        <br> <br>
+                        <div class="double-section">
+                            <div class="double-section-child text-right"><i class="fa-solid fa-circle-info"></i> Product ID:</div>
+                            <div class="double-section-child text-left">5</div>
+                        </div>
+                        <div class="double-section">
+                            <div class="double-section-child text-right"><i class="fa-solid fa-paint-roller"></i> Colour ID:</div>
+                            <div class="double-section-child text-left">
+                                (5.0) White
+                                <br>
+                                (5.1) Gray
+                                <br>
+                                (5.2) Black
+                                <br>
+                                (5.3) Red
+                                <br>
+                                (5.4) Green
+                                <br>
+                                (5.5) Blue
+                            </div>
+                        </div>
+                        <div class="double-section">
+                            <div class="double-section-child text-right"><i class="fa-solid fa-ruler"></i> Size:</div>
+                            <div class="double-section-child text-left">TBA</div>
+                        </div>
+                        <div class="double-section">
+                            <div class="double-section-child text-right"><i class="fa-solid fa-weight-hanging"></i> Weight:</div>
+                            <div class="double-section-child text-left">TBA</div>
+                        </div>
+                        <div class="double-section">
+                            <div class="double-section-child text-right"><i class="fa-solid fa-wallet"></i> Price:</div>
+                            <div class="double-section-child text-left">
+                                £12.99
+                                <br>
+                                (Free Postage)</div>
+                        </div>
                     </p>
                 </div>
             </div>
+            <!-- Description -->
+            <h3 class="text-center rem1-5 bold-500 width-75">Description</h2>
+            <p class="rem1-25 width-50 text-center">
+                The Screw Box is a print in place storage soltion, easily stackable and ready for your screw or other small items to be stored in your work area. Can be done in a select amount of colours including Gray, White & Red.
+                <br> <br>
+            </p>
             <div class="spacer"></div>
         </main>
         <br>
@@ -136,7 +170,7 @@
                     <a href="\services">Services</a>
                     <a href="\#contact">Contact</a>
                     <br>
-                    <p class="font-white">v2.6</p>
+                    <p class="font-white">v2.6.1</p>
                 </div>
                 <div class="triple-section-child footer-section-nav">
                     <i class="fa-regular fa-copyright font-white"> Copyright 2023</i> 
