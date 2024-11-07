@@ -550,3 +550,8 @@ footer .triple-section {
 .carousel-button.next {
     right: 0.5rem;
 }
+
+/* Fediverse Image */
+.fediverse-img {
+    width: 1.75rem;
+}
